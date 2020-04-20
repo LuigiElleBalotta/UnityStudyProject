@@ -11,7 +11,9 @@ public class CharacterAnimationBase : MonoBehaviour
         Run = 2,
         WalkBack = 3,
         RotateLeft = 4,
-        RotateRight = 5
+        RotateRight = 5,
+        Jump = 6,
+        FallDown = 7
     }
 
     public AnimationStates currentState;
