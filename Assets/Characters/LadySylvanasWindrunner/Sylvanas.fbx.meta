@@ -3,32 +3,12 @@ guid: e4d8c2c42604b40278a526f37065251c
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: creature_ladysylvanaswindrunner_ladysylvanaswindrunner_0
-    second: {fileID: 2100000, guid: b774aa25cb0c148b98c0c83feef21cdf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: creature_ladysylvanaswindrunner_ladysylvanaswindrunner_1
-    second: {fileID: 2100000, guid: 27e47d25ec76647a4835dd79783cc31b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: creature_ladysylvanaswindrunner_ladysylvanaswindrunner_2
-    second: {fileID: 2100000, guid: 27e47d25ec76647a4835dd79783cc31b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: creature_ladysylvanaswindrunner_ladysylvanaswindrunner_3
-    second: {fileID: 2100000, guid: b774aa25cb0c148b98c0c83feef21cdf, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

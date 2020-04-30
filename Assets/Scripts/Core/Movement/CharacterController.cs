@@ -17,12 +17,16 @@ public class CharacterController : MonoBehaviour
     UnityEngine.CharacterController controller;
     Rigidbody rb;
 
+    bool _canMove;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         controller = GetComponent<UnityEngine.CharacterController>();
         rb = GetComponent<Rigidbody>();
+
+        _canMove = true;
     }
 
     // Update is called once per frame
@@ -30,7 +34,7 @@ public class CharacterController : MonoBehaviour
     {
         //Debug.Log((AnimationStates)anim.GetInteger("p_currentState") + " " + DateTime.Now.ToString("DD/MM/YYYY HH:mm:ss"));
         AnimationStates animation = AnimationStates.Stand;
-        if( IsGrounded())
+        if( IsGrounded() && _canMove )
         {
             if (Input.GetKey(KeyCode.W))
             {
@@ -143,5 +147,10 @@ public class CharacterController : MonoBehaviour
     private bool IsGrounded()
     {
         return Physics.Raycast(transform.position, -Vector3.up, 0.0f + 0.1f);
+    }
+
+    public void SetMovementEnabled( bool enabled )
+    {
+        _canMove = enabled;
     }
 }
