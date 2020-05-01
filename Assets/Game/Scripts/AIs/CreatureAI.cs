@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Game.Database.Entities;
 using UnityEngine;
 using UnityEngine.AI;
+using static CharacterAnimationBase;
 
 public class CreatureAI : CreatureStats
 {
@@ -20,6 +21,8 @@ public class CreatureAI : CreatureStats
 
     Vector3 currentEndpointPosition;
 
+    Animator anim;
+
     void OnValidate()
     {
         if (!agent)
@@ -35,6 +38,8 @@ public class CreatureAI : CreatureStats
         path = new NavMeshPath();
         currentEndpointPosition = Vector3.zero;
 
+        anim = GetComponent<Animator>();
+
         _initialized = false;
         
         
@@ -43,7 +48,9 @@ public class CreatureAI : CreatureStats
     void InitCreatureStats()
     {
         maxHp = creatureTemplate.BaseHealth;
+        curHp = maxHp;
         maxMana = creatureTemplate.BaseMana;
+        curMana = maxMana;
         level = creatureTemplate.Level;
         name = creatureTemplate.Name;
     }
@@ -72,6 +79,7 @@ public class CreatureAI : CreatureStats
                 }
                 else
                 {
+                    anim.SetInteger("p_currentState", (int)AnimationStates.Walk);
                     float dist = agent.remainingDistance;
                     if (dist != Mathf.Infinity && agent.pathStatus == NavMeshPathStatus.PathComplete && agent.remainingDistance == 0)
                     {
