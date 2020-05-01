@@ -7,6 +7,8 @@ public class Constants : MonoBehaviour
     public static Vector3 WowForward = new Vector3(1, 0, 0);
     public static Vector3 WowBack = new Vector3(-1, 0, 0);
 
+    public static SQLite4Unity3d.SQLiteConnection db;
+
     public enum RotationDirection
     {
         Left = 1,
@@ -18,4 +20,6 @@ public class Constants : MonoBehaviour
         SelectOnly = 0,
         SelectAndAttack = 1
     }
+
+
 }
