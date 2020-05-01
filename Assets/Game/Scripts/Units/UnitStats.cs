@@ -63,21 +63,29 @@ public class UnitStats : MonoBehaviour
     public float percentOfUnitMana;
 
     //Shaders - non sono sicuro vada bene qui
-    public Shader shader1;
-    public Shader shader2;
-    public Renderer rend;
+    //public Shader shader1;
+    //public Shader shader2;
+    //public Renderer rend;
+
+    public GameobjectType Type;
 
     //Positions: non sono sicuro vada bene qui
     public Vector3 respawnPosition = Vector3.zero;
+
+    public bool _isInCombat {  get
+        {
+            return selectedUnit != null;
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         Debug.Log($"THIS particular script is on {gameObject.name}");
 
-        rend = GetComponent<Renderer>();
-        shader1 = Shader.Find("Legacy Shaders/Diffuse");
-        shader2 = Shader.Find("Legacy Shaders/Self-Illumin/Diffuse");
+        //rend = GetComponent<Renderer>();
+        //shader1 = Shader.Find("Legacy Shaders/Diffuse");
+        //shader2 = Shader.Find("Legacy Shaders/Self-Illumin/Diffuse");
 
         if (respawnPosition == Vector3.zero)
         {
@@ -257,12 +265,12 @@ public class UnitStats : MonoBehaviour
 
     public void Selected()
     {
-        rend.material.shader = shader2;
+        //rend.material.shader = shader2;
     }
 
     public void Deselected()
     {
-        rend.material.shader = shader1;
+        //rend.material.shader = shader1;
     }
 
     public bool IsAlive()

@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using Game.Database.Entities;
 using UnityEngine;
+using static Constants;
 
 public class PauseManager : MonoBehaviour
 {
     bool isPaused;
     public GameObject pnlPause;
+
+    int lastPoint = 0;
 
     void Start()
     {
@@ -66,6 +69,36 @@ public class PauseManager : MonoBehaviour
         creature.GUID = Constants.db.Insert(creature);
 
         Global.CreatureList.Add(creature);
+
+        ChangePauseStatus();
+    }
+
+    public void AddWaypoint()
+    {
+        Transform currentPlayer = GameObject.FindGameObjectWithTag("Player").transform;
+
+        var selectedUnit = currentPlayer.GetComponent<PlayerStats>().selectedUnit;
+        if (!selectedUnit)
+        {
+            Debug.LogError("No target");
+        }
+        else
+        {
+            var ai = selectedUnit.GetComponent<CreatureAI>();
+            WaypointData wd = new WaypointData
+            {
+                ID = ai?.creatureDbInfo.GUID ?? 0,
+                Delay = 0,
+                MovementType = (int)MovementType.Walk,
+                Point = lastPoint,
+                PositionX = currentPlayer.position.x,
+                PositionY = currentPlayer.position.y,
+                PositionZ = currentPlayer.position.z,
+                Orientation = currentPlayer.rotation.y
+            };
+
+            Constants.db.Insert(wd);
+        }
 
         ChangePauseStatus();
     }

@@ -7704,9 +7704,11 @@ GameObject:
   - component: {fileID: 153050457410851405}
   - component: {fileID: 153050457410851404}
   - component: {fileID: 153050457410851395}
+  - component: {fileID: 6601398278324998211}
+  - component: {fileID: -4901907531212885699}
   m_Layer: 0
   m_Name: WarlockUndead
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7782,6 +7784,88 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &6601398278324998211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8160051396622682950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f687a5480c5c342d9804b4c770f933c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitName: 
+  level: 0
+  unitClass: 
+  curHp: 0
+  maxHp: 0
+  curMana: 0
+  maxMana: 0
+  baseAttackPower: 0
+  curAttackPower: 0
+  baseAttackSpeed: 0
+  curAttackSpeed: 0
+  baseDodge: 0
+  curDodge: 0
+  baseHitPercent: 0
+  curHitPercent: 0
+  hpRegenTimer: 0
+  hpRegenAmount: 0
+  manaRegenTimer: 0
+  manaRegenAmount: 0
+  curXp: 0
+  maxXp: 0
+  isDead: 0
+  selectedUnit: {fileID: 0}
+  enemyStatsScript: {fileID: 0}
+  behindEnemy: 0
+  canAttack: 0
+  autoAttackCooldown: 0
+  autoAttackCurTime: 0
+  canAutoAttack: 0
+  doubleClickTimer: 0
+  didDoubleClick: 0
+  RaycastLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  inLineOfSight: 0
+  hoverOverActive: 0
+  hoverName: 
+  TickTime: 0
+  RangedSpellPrefab: {fileID: 0}
+  unitHpBarLength: 0
+  percentOfUnitHp: 0
+  unitManaBarLength: 0
+  percentOfUnitMana: 0
+  shader1: {fileID: 0}
+  shader2: {fileID: 0}
+  rend: {fileID: 0}
+  respawnPosition: {x: 0, y: 0, z: 0}
+  agent: {fileID: -4901907531212885699}
+--- !u!195 &-4901907531212885699
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8160051396622682950}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &8188423299073060813
 GameObject:
   m_ObjectHideFlags: 0

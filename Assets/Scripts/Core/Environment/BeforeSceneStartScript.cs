@@ -17,6 +17,7 @@ public class BeforeSceneStartScript
 
         database.CreateTable<CreatureTemplate>();
         database.CreateTable<Creature>();
+        database.CreateTable<WaypointData>();
 
         var rows = database.Table<CreatureTemplate>().Where(row => row.PrefabName == "WarlockUndead");
         if( rows.Count() == 0 )
@@ -33,5 +34,8 @@ public class BeforeSceneStartScript
         Global.CreatureList.AddRange(creatures);
 
         Debug.Log($"Loaded {Global.CreatureList.Count} creatures.");
+
+        var waypointsdata = database.Table<WaypointData>().OrderBy(x => x.ID).ThenBy(x => x.Point);
+        Global.WaypointDataList.AddRange(waypointsdata);
     }
 }

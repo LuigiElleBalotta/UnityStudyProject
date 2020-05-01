@@ -5,4 +5,5 @@ public class Global
 {
     public static List<CreatureTemplate> CreatureTemplateList = new List<CreatureTemplate>();
     public static List<Creature> CreatureList = new List<Creature>();
+    public static List<WaypointData> WaypointDataList = new List<WaypointData>();
 }

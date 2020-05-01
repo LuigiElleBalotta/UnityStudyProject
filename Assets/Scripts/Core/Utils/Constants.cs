@@ -21,5 +21,19 @@ public class Constants : MonoBehaviour
         SelectAndAttack = 1
     }
 
+    public enum MovementType
+    {
+        Walk = 1,
+        Run = 2
+    }
+
+    public enum GameobjectType
+    {
+        None = 0,
+        Player = 1,
+        Creature = 2,
+        Gameobject = 3
+    }
+
 
 }

@@ -17,7 +17,7 @@ public class PlayerStats : UnitStats
     // Start is called before the first frame update
     void Start()
     {
-        
+        Type = Constants.GameobjectType.Creature;
     }
 
     void OnGUI()
@@ -67,7 +67,13 @@ public class PlayerStats : UnitStats
 
         if( hit.transform.tag == target_tag && selectedUnit != null )
         {
-            selectedUnit.transform.GetComponent<UnitStats>().Selected();
+            var creatureAI = selectedUnit.transform.GetComponent<CreatureAI>();
+            //unitStatsScript.Selected();
+
+            if( creatureAI != null )
+            {
+                Debug.Log($"Ho seleziona la creatura con GUID: " + creatureAI.creatureDbInfo.GUID);
+            }
         }
         else if( selectedUnit != null )
         {
