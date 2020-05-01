@@ -17,9 +17,10 @@ public class SpawnManager : MonoBehaviour
         
         foreach(var creature in Global.CreatureList)
         {
-            if( !dicCreatureTemplates.ContainsKey(creature.IDCreature))
+            CreatureTemplate template = null;
+            if ( !dicCreatureTemplates.ContainsKey(creature.IDCreature))
             {
-                CreatureTemplate template = Global.CreatureTemplateList.FirstOrDefault(row => row.ID == creature.IDCreature);
+                template = Global.CreatureTemplateList.FirstOrDefault(row => row.ID == creature.IDCreature);
                 dicCreatureTemplates.Add(creature.IDCreature, template);
             }
             string prefabName = dicCreatureTemplates[creature.IDCreature].PrefabName;

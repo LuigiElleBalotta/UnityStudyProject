@@ -3,7 +3,42 @@ guid: 76306f0b808d74ae2983b1cc040ac55c
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent01_0_2471034
+    second: {fileID: 2800000, guid: d6176db4f34b641f2aca8815fb4ef3b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent01_5_2471037
+    second: {fileID: 2800000, guid: 9fe18e0b2f0de4720baa62ec8921db8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent01_6_2471033
+    second: {fileID: 2800000, guid: b82ff1b77d47d4756bb2296161cc556e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent_curtains_interior
+    second: {fileID: 2800000, guid: 0bede4d5106234bbd8e6ac6ed27e9c38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent_props_exterior
+    second: {fileID: 2800000, guid: b6045437279dc44e48a07943a50216f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent_props_interior
+    second: {fileID: 2800000, guid: 16a375c5c519542259c8f425f3faa343, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 8fk_forsaken_nathanostent_skulls
+    second: {fileID: 2800000, guid: 26a8eee21d3214cd596ef715afa851dc, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0

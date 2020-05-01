@@ -3,7 +3,17 @@ guid: a0a58f2d9fd2d45ee8364ded17aa1574
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ograid_chandelier_02
+    second: {fileID: 2800000, guid: f6b72c6509f4744d5b03bc3482bcaea5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ograid_chandelier_02b
+    second: {fileID: 2800000, guid: e315004708f86467fa9a3b643c03fc5f, type: 3}
   materials:
     materialImportMode: 1
     materialName: 0
