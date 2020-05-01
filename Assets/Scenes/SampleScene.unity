@@ -381,6 +381,32 @@ MonoBehaviour:
     type: 3}
   pnlDeath: {fileID: 1040898530}
   btnRespawn: {fileID: 60612683}
+--- !u!114 &92912293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92912291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20aa5b99dbde74d2aa0d74d6383c4ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controls:
+    forwards: 119
+    backwards: 115
+    strafeLeft: 113
+    strafeRight: 101
+    rotateLeft: 97
+    rotateRight: 100
+    walkRun: 304
+    jump: 32
+  baseSpeed: 1
+  runSpeed: 4
+  rotateSpeed: 2
+  rotateMult: 2
+  run: 1
 --- !u!114 &92912301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -745,7 +771,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
@@ -3822,6 +3848,11 @@ PrefabInstance:
       propertyPath: m_UpdateMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 723437253787306716, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 723437253787306719, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
         type: 3}
       propertyPath: speed
@@ -3842,20 +3873,25 @@ PrefabInstance:
       propertyPath: backwalkSpeed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 723437253787306719, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5724249501094589067, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1069.76
+      value: 1069.787
       objectReference: {fileID: 0}
     - target: {fileID: 5724249501094589067, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.5
+      value: 25.892
       objectReference: {fileID: 0}
     - target: {fileID: 5724249501094589067, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1303.08
+      value: 1303.058
       objectReference: {fileID: 0}
     - target: {fileID: 5724249501094589067, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
         type: 3}
@@ -3916,6 +3952,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sylvanas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731291445407105178, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8731291445407105179, guid: 4e664f967effd4e4fa07c57a8e75bd4d,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e664f967effd4e4fa07c57a8e75bd4d, type: 3}

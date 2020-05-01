@@ -87,7 +87,7 @@ public class PlayerStats : UnitStats
     internal override void OnDeath()
     {
         base.OnDeath();
-        GetComponent<CharacterController>().SetMovementEnabled(false);
+        GetComponent<PlayerMovement>().SetMovementEnabled(false);
         pnlDeath.SetActive(true);
     }
 
@@ -95,6 +95,6 @@ public class PlayerStats : UnitStats
     {
         base.OnRespawn();
         pnlDeath.SetActive(false);
-        GetComponent<CharacterController>().SetMovementEnabled(true);
+        GetComponent<PlayerMovement>().SetMovementEnabled(true);
     }
 }
