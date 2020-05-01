@@ -47,7 +47,7 @@ public class CharacterController : MonoBehaviour
 
             if (Input.GetKey(KeyCode.W))
             {
-                animation = AnimationStates.Run;
+                animation = isRunning ? AnimationStates.Run : AnimationStates.Walk;
 
                 if (Input.GetKey(KeyCode.Space))
                 {
