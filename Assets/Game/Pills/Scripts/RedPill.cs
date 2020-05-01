@@ -9,11 +9,11 @@ public class RedPill : Pill
     {
         base.OnPicked(other);
 
-        HealthManager hm = other.GetComponent<HealthManager>();
+        PlayerStats hm = other.GetComponent<PlayerStats>();
 
         if(!hm) { return; }
 
-        hm.Damage(damage);
+        hm.ReceiveDamage(damage);
 
         Destroy(gameObject, 2);
 

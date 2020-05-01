@@ -7,7 +7,12 @@ using static Constants;
 
 public class CharacterController : MonoBehaviour
 {
-    public float speed = 40;
+    public float runSpeed = 40;
+    public float walkSpeed = 20;
+    public float backwalkSpeed = 10;
+
+    public bool isRunning = false;
+
     float rotSpeed = 80;
     public float gravity = -9;
 
@@ -32,17 +37,17 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log((AnimationStates)anim.GetInteger("p_currentState") + " " + DateTime.Now.ToString("DD/MM/YYYY HH:mm:ss"));
         AnimationStates animation = AnimationStates.Stand;
-        if( IsGrounded() && _canMove )
+
+        if (Input.GetKey(KeyCode.LeftShift))
+            isRunning = !isRunning;
+
+        if ( IsGrounded() && _canMove )
         {
+
             if (Input.GetKey(KeyCode.W))
             {
                 animation = AnimationStates.Run;
-
-                //transform.position += transform.forward * Time.deltaTime * speed;
-
-
 
                 if (Input.GetKey(KeyCode.Space))
                 {
@@ -63,7 +68,12 @@ public class CharacterController : MonoBehaviour
             {
                 animation = AnimationStates.WalkBack;
 
-                transform.Translate(-transform.forward * Time.deltaTime * speed, Space.World);
+                if (Input.GetKey(KeyCode.A))
+                    WalkBackLeft();
+                else if (Input.GetKey(KeyCode.D))
+                    WalkBackRight();
+                else
+                    WalkBack();
             }
             else if (Input.GetKey(KeyCode.D))
             {
@@ -124,13 +134,15 @@ public class CharacterController : MonoBehaviour
 
     private void ForwardLeft()
     {
-        transform.Translate(transform.forward * Time.deltaTime * speed, Space.World);
+        float actualSpeed = isRunning ? runSpeed : walkSpeed;
+        transform.Translate(transform.forward * Time.deltaTime * actualSpeed, Space.World);
         Rotate(RotationDirection.Left);
     }
 
     private void ForwardRight()
     {
-        transform.Translate(transform.forward * Time.deltaTime * speed, Space.World);
+        float actualSpeed = isRunning ? runSpeed : walkSpeed;
+        transform.Translate(transform.forward * Time.deltaTime * actualSpeed, Space.World);
         Rotate(RotationDirection.Right);
     }
 
@@ -141,7 +153,25 @@ public class CharacterController : MonoBehaviour
 
     private void Forward()
     {
-        transform.Translate(transform.forward * Time.deltaTime * speed, Space.World);
+        float actualSpeed = isRunning ? runSpeed : walkSpeed;
+        transform.Translate(transform.forward * Time.deltaTime * actualSpeed, Space.World);
+    }
+
+    private void WalkBack()
+    {
+        transform.Translate(-transform.forward * Time.deltaTime * backwalkSpeed, Space.World);
+    }
+
+    private void WalkBackLeft()
+    {
+        transform.Translate(-transform.forward * Time.deltaTime * backwalkSpeed, Space.World);
+        Rotate(RotationDirection.Left);
+    }
+
+    private void WalkBackRight()
+    {
+        transform.Translate(-transform.forward * Time.deltaTime * backwalkSpeed, Space.World);
+        Rotate(RotationDirection.Right);
     }
 
     private bool IsGrounded()

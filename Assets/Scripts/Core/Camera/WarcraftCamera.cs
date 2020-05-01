@@ -47,7 +47,7 @@ public class WarcraftCamera : MonoBehaviour
     [SerializeField, UsedImplicitly, HideInInspector]
     private Camera targetCamera;
 
-    private Transform target;
+    private UnitStats target;
     private Vector3 targetPosition;
     private Vector3 targetPositionVelocity;
 
@@ -60,12 +60,12 @@ public class WarcraftCamera : MonoBehaviour
 
     public Camera Camera => targetCamera;
 
-    public Transform Target
+    public UnitStats Target
     {
         set
         {
             target = value;
-            currentActualHeight = targetHeight;//target == null || target.IsAlive ? targetHeight : deadTargetHeight;
+            currentActualHeight = target == null || target.IsAlive() ? targetHeight : deadTargetHeight;
 
             if (target != null)
                 UpdateTargetPosition(true);
@@ -89,7 +89,7 @@ public class WarcraftCamera : MonoBehaviour
         desiredDistance = distance;
         correctedDistance = distance;
 
-        Target = GameObject.FindGameObjectWithTag("Player").transform;
+        Target = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStats>();
     }
 
     [UsedImplicitly]
@@ -99,7 +99,7 @@ public class WarcraftCamera : MonoBehaviour
             return;
 
         UpdateTargetPosition(false);
-        currentActualHeight = Mathf.MoveTowards(currentActualHeight, /*target.IsAlive ? */targetHeight/* : deadTargetHeight*/, targetHeightDampening * Time.deltaTime);
+        currentActualHeight = Mathf.MoveTowards(currentActualHeight, target.IsAlive() ? targetHeight : deadTargetHeight, targetHeightDampening * Time.deltaTime);
 
         // If either mouse buttons are down, let the mouse govern camera position
         if (GUIUtility.hotControl == 0)
@@ -112,12 +112,12 @@ public class WarcraftCamera : MonoBehaviour
             // otherwise, ease behind the target if any of the directional keys are pressed
             else if (!Mathf.Approximately(Input.GetAxis("Vertical"), 0) || !Mathf.Approximately(Input.GetAxis("Horizontal"), 0))
             {
-                //if (target.IsAlive && input.IsPlayerInputAllowed)
-                //{
+                if (target.IsAlive() /*&& input.IsPlayerInputAllowed*/)
+                {
                     float targetRotationAngle = target.transform.eulerAngles.y;
                     float currentRotationAngle = transform.eulerAngles.y;
                     xDeg = Mathf.LerpAngle(currentRotationAngle, targetRotationAngle, rotationDampening * Time.deltaTime);
-                //}
+                }
             }
         }
 
@@ -169,7 +169,7 @@ public class WarcraftCamera : MonoBehaviour
 
     private void UpdateTargetPosition(bool instantly)
     {
-        targetPosition = instantly ? target.position : Vector3.SmoothDamp(targetPosition, target.position, ref targetPositionVelocity, targetSmoothTime);
+        targetPosition = instantly ? target.transform.position : Vector3.SmoothDamp(targetPosition, target.transform.position, ref targetPositionVelocity, targetSmoothTime);
     }
 
     private static float ClampAngle(float angle, float min, float max)

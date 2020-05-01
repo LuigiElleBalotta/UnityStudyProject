@@ -12,4 +12,10 @@ public class Constants : MonoBehaviour
         Left = 1,
         Right = 2
     }
+
+    public enum TargetSelectionType
+    {
+        SelectOnly = 0,
+        SelectAndAttack = 1
+    }
 }

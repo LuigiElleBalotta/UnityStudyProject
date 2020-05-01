@@ -23,10 +23,10 @@ public class LaserTrap : MonoBehaviour
 
     void Trigger(Collider other)
     {
-        HealthManager hm = other.GetComponent<HealthManager>();
+        PlayerStats hm = other.GetComponent<PlayerStats>();
 
         if (!hm) { return; }
 
-        hm.Damage(damage);
+        hm.ReceiveDamage(damage);
     }
 }
