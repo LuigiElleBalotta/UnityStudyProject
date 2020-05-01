@@ -87,7 +87,7 @@ public class PauseManager : MonoBehaviour
             var ai = selectedUnit.GetComponent<CreatureAI>();
             WaypointData wd = new WaypointData
             {
-                ID = ai?.creatureDbInfo.GUID ?? 0,
+                ID = -(ai?.creatureDbInfo.GUID) ?? 0,
                 Delay = 0,
                 MovementType = (int)MovementType.Walk,
                 Point = lastPoint,
@@ -98,6 +98,7 @@ public class PauseManager : MonoBehaviour
             };
 
             Constants.db.Insert(wd);
+            lastPoint++;
         }
 
         ChangePauseStatus();
