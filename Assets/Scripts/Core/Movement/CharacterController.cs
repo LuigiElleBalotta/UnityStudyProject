@@ -24,6 +24,8 @@ public class CharacterController : MonoBehaviour
 
     bool _canMove;
 
+    AnimationStates currentAnimation;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,17 +39,18 @@ public class CharacterController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AnimationStates animation = AnimationStates.Stand;
-
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
             isRunning = !isRunning;
+        }
+            
 
         if ( IsGrounded() && _canMove )
         {
 
             if (Input.GetKey(KeyCode.W))
             {
-                animation = isRunning ? AnimationStates.Run : AnimationStates.Walk;
+                currentAnimation = isRunning ? AnimationStates.Run : AnimationStates.Walk;
 
                 if (Input.GetKey(KeyCode.Space))
                 {
@@ -66,7 +69,7 @@ public class CharacterController : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                animation = AnimationStates.WalkBack;
+                currentAnimation = AnimationStates.WalkBack;
 
                 if (Input.GetKey(KeyCode.A))
                     WalkBackLeft();
@@ -78,26 +81,20 @@ public class CharacterController : MonoBehaviour
             else if (Input.GetKey(KeyCode.D))
             {
                 Rotate(RotationDirection.Right);
-                animation = AnimationStates.RotateRight;
+                currentAnimation = AnimationStates.RotateRight;
             }
             else if (Input.GetKey(KeyCode.A))
             {
                 Rotate(RotationDirection.Left);
 
-                animation = AnimationStates.RotateLeft;
+                currentAnimation = AnimationStates.RotateLeft;
             }
             else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
             {
-                //anim.SetInteger("p_currentState", (int)AnimationStates.Run);
-                //transform.Translate(transform.forward * Time.deltaTime * speed, Space.World);
-                //anim.SetInteger("p_currentState", (int)AnimationStates.RotateRight);
                 Debug.Log("Move W+D");
             }
             else if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
             {
-                //anim.SetInteger("p_currentState", (int)AnimationStates.Run);
-                //transform.Translate(transform.forward * Time.deltaTime * speed, Space.World);
-                //transform.Rotate(0, -1, 0, Space.Self);
                 Debug.Log("Move W+A");
             }
             else if( Input.GetKey(KeyCode.Space))
@@ -107,7 +104,7 @@ public class CharacterController : MonoBehaviour
             }
             else
             {
-                animation = AnimationStates.Stand;
+                currentAnimation = AnimationStates.Stand;
             }
         }
         else
@@ -117,7 +114,8 @@ public class CharacterController : MonoBehaviour
         }
 
         //if(!(anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !anim.IsInTransition(0) && anim.GetCurrentAnimatorStateInfo(0).loop))
-        anim.SetInteger("p_currentState", (int)animation);
+        
+        anim.SetInteger("p_currentState", (int)currentAnimation);
     }
 
     private void Rotate(RotationDirection direction)
