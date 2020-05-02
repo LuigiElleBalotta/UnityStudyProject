@@ -64,6 +64,10 @@ public class PlayerStats : UnitStats
         {
             base.TryAttackAbility();
         }
+        else if( Input.GetKeyDown("2"))
+        {
+            base.RangedSpell();
+        }
         else
         {
             base.TryAutoAttack();

@@ -56,6 +56,7 @@ public class UnitStats : MonoBehaviour
 
     public GameObject RangedSpellPrefab;
 
+
     //USER GUI Bars stats
     public float unitHpBarLength;
     public float percentOfUnitHp;
@@ -254,6 +255,21 @@ public class UnitStats : MonoBehaviour
             canAutoAttack = true;
         }
             
+    }
+
+    internal void RangedSpell()
+    {
+        if( selectedUnit != null )
+        {
+            Vector3 spawnSpellLoc = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
+            GameObject clone;
+            clone = Instantiate(RangedSpellPrefab, spawnSpellLoc, Quaternion.identity);
+            clone.transform.GetComponent<RangedSpell>().Target = selectedUnit;
+        }
+        else
+        {
+            Debug.LogError("No selected unit!");
+        }
     }
 
     public void ReceiveDamage( float damage )
