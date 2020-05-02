@@ -23,7 +23,43 @@ public class CharacterAnimatorController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ( controller.isGrounded )
+        if( playerMovement.inWater )
+        {
+            if (Input.GetKey(KeyCode.W))
+            {
+                currentAnimation = AnimationStates.SwimForward;
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                currentAnimation = AnimationStates.SwimBack;
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                //Rotate(RotationDirection.Right);
+                currentAnimation = AnimationStates.SwimIdle;
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                currentAnimation = AnimationStates.SwimIdle;
+            }
+            else if (Input.GetKey(KeyCode.Space))
+            {
+                currentAnimation = AnimationStates.Jump;
+            }
+            else if (Input.GetKey(KeyCode.Q))
+            {
+                currentAnimation = AnimationStates.SwimLeft;
+            }
+            else if (Input.GetKey(KeyCode.E))
+            {
+                currentAnimation = AnimationStates.SwimRight;
+            }
+            else
+            {
+                currentAnimation = AnimationStates.SwimIdle;
+            }
+        }
+        else if ( controller.isGrounded )
         {
 
             if (Input.GetKey(KeyCode.W))

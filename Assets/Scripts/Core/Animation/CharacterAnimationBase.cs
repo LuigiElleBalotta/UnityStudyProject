@@ -13,7 +13,12 @@ public class CharacterAnimationBase : MonoBehaviour
         RotateLeft = 4,
         RotateRight = 5,
         Jump = 6,
-        FallDown = 7
+        FallDown = 7,
+        SwimIdle = 8,
+        SwimBack = 9,
+        SwimLeft = 10,
+        SwimRight = 11,
+        SwimForward = 12
     }
 
     public AnimationStates currentState;

@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
     Vector3 jumpDirection;
 
     //swimming
-    float swimSpeed = 2, swimLevel = 25;
+    float swimSpeed = 2, swimLevel = 25.25f;
     [HideInInspector]
     public float waterSurface, d_fromWaterSurface;
     public bool inWater;
