@@ -14,6 +14,8 @@ public class PlayerStats : UnitStats
     public GameObject pnlDeath;
     public Button btnRespawn;
 
+    float tarCurHp = 0, tarMaxHp = 0, tarCurMana = 0, tarMaxMana = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +24,24 @@ public class PlayerStats : UnitStats
 
     void OnGUI()
     {
+        //Player
         GUI.DrawTexture(new Rect(20, 30, 120, 70), barsBackgroundTexture);
         GUI.DrawTexture(new Rect(30, 40, unitHpBarLength, 20), hpBarTexture);
         GUI.DrawTexture(new Rect(30, 65, unitManaBarLength, 20), manaBarTexture);
 
         GUI.Label(new Rect(50, 40, 200, 20), $"{curHp} / {maxHp}");
         GUI.Label(new Rect(50, 65, 200, 20), $"{curMana} / {maxMana}");
+
+
+        //Target
+        GUI.DrawTexture(new Rect(220, 30, 120, 70), barsBackgroundTexture);
+        GUI.DrawTexture(new Rect(230, 40, unitHpBarLength, 20), hpBarTexture);
+        GUI.DrawTexture(new Rect(230, 65, unitManaBarLength, 20), manaBarTexture);
+
+        GUI.Label(new Rect(250, 40, 200, 20), $"{tarCurHp} / {tarMaxHp}");
+        GUI.Label(new Rect(250, 65, 200, 20), $"{tarCurMana} / {tarMaxMana}");
+
+
     }
 
     // Update is called once per frame
@@ -53,6 +67,26 @@ public class PlayerStats : UnitStats
         else
         {
             base.TryAutoAttack();
+        }
+
+        if( selectedUnit != null )
+        {
+            var ai = selectedUnit.GetComponent<CreatureAI>();
+            if( ai )
+            {
+                tarCurHp = ai.curHp;
+                tarMaxHp = ai.maxHp;
+                tarCurMana = ai.curMana;
+                tarMaxMana = ai.maxMana;
+            }
+            
+        }
+        else
+        {
+            tarCurHp = 0;
+            tarMaxHp = 0;
+            tarCurMana = 0;
+            tarMaxMana = 0;
         }
     }
 
