@@ -1,5 +1,125 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &98246662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 98246663}
+  m_Layer: 0
+  m_Name: SwimNormal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &98246663
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 98246662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5724249501094589067}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &913967235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913967236}
+  m_Layer: 0
+  m_Name: FallDirection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &913967236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913967235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5724249501094589067}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1715132227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715132228}
+  m_Layer: 0
+  m_Name: MoveDirection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1715132228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715132227}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5724249501094589067}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1853524784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1853524785}
+  m_Layer: 0
+  m_Name: GroundDirection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1853524785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853524784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5724249501094589067}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &538694983903723
 GameObject:
   m_ObjectHideFlags: 0
@@ -4294,6 +4414,9 @@ GameObject:
   - component: {fileID: 723437253787306719}
   - component: {fileID: 8731291445407105179}
   - component: {fileID: 8731291445407105178}
+  - component: {fileID: 92912292}
+  - component: {fileID: 92912293}
+  - component: {fileID: 92912301}
   m_Layer: 0
   m_Name: Sylvanas
   m_TagString: Player
@@ -4308,12 +4431,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8731291445407105176}
-  m_LocalRotation: {x: 0.002040065, y: 0.69747484, z: 0.0019073744, w: 0.7166038}
+  m_LocalRotation: {x: 0.002041509, y: 0.69747496, z: 0.0019098362, w: 0.7166038}
   m_LocalPosition: {x: 1033.3, y: 22.11, z: 1293.09}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 8296857573924558210}
   - {fileID: 1153389661237501503}
+  - {fileID: 1853524785}
+  - {fileID: 913967236}
+  - {fileID: 1715132228}
+  - {fileID: 98246663}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.015000001, y: 88.450005, z: 0.32000002}
@@ -4326,7 +4453,7 @@ CharacterController:
   m_GameObject: {fileID: 8731291445407105176}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Height: 0.9763324
   m_Radius: 0.12
@@ -4394,8 +4521,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0d898b6890824fdbb168f0bfa094928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
-  gravity: 500
 --- !u!54 &8731291445407105179
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4411,7 +4536,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 122
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!64 &8731291445407105178
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4426,6 +4551,147 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4688396221980916831, guid: e4d8c2c42604b40278a526f37065251c, type: 3}
+--- !u!114 &92912292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731291445407105176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42ce46e465fb1448c920a97ff3f7ccc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unitName: 
+  level: 0
+  unitClass: 
+  curHp: 100
+  maxHp: 100
+  curMana: 100
+  maxMana: 100
+  baseAttackPower: 0
+  curAttackPower: 0
+  baseAttackSpeed: 0
+  curAttackSpeed: 0
+  baseDodge: 0
+  curDodge: 0
+  baseHitPercent: 0
+  curHitPercent: 0
+  hpRegenTimer: 0
+  hpRegenAmount: 0
+  manaRegenTimer: 0
+  manaRegenAmount: 0
+  curXp: 0
+  maxXp: 0
+  isDead: 0
+  selectedUnit: {fileID: 0}
+  enemyStatsScript: {fileID: 0}
+  behindEnemy: 0
+  canAttack: 0
+  autoAttackCooldown: 3
+  autoAttackCurTime: 0
+  canAutoAttack: 0
+  doubleClickTimer: 0
+  didDoubleClick: 0
+  RaycastLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  inLineOfSight: 0
+  hoverOverActive: 0
+  hoverName: 
+  TickTime: 0
+  RangedSpellPrefab: {fileID: 0}
+  unitHpBarLength: 0
+  percentOfUnitHp: 0
+  unitManaBarLength: 0
+  percentOfUnitMana: 0
+  Type: 0
+  respawnPosition: {x: 0, y: 0, z: 0}
+  hpBarTexture: {fileID: 2800000, guid: f4310a4fe48a54d93b7489f1892a9ef0, type: 3}
+  manaBarTexture: {fileID: 2800000, guid: f747a1318629246c78794c9635717886, type: 3}
+  barsBackgroundTexture: {fileID: 2800000, guid: 190d587ad4c7f4d1598ff8515c569e27,
+    type: 3}
+  pnlDeath: {fileID: 0}
+  btnRespawn: {fileID: 0}
+--- !u!114 &92912293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731291445407105176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20aa5b99dbde74d2aa0d74d6383c4ac6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controls:
+    forwards:
+      primary: 77000000
+      secondary: 
+    backwards:
+      primary: 73000000
+      secondary: 
+    strafeLeft:
+      primary: 71000000
+      secondary: 
+    strafeRight:
+      primary: 65000000
+      secondary: 
+    rotateLeft:
+      primary: 61000000
+      secondary: 
+    rotateRight:
+      primary: 64000000
+      secondary: 
+    walkRun:
+      primary: 30010000
+      secondary: 
+    jump:
+      primary: 20000000
+      secondary: 
+    sit:
+      primary: 78000000
+      secondary: 
+    autoRun:
+      primary: 5c000000
+      secondary: 
+  inputNormalized: {x: 0, y: 0}
+  rotation: 0
+  steer: 0
+  autoRun: 0
+  waterMask:
+    serializedVersion: 2
+    m_Bits: 0
+  moveState: 0
+  baseSpeed: 2
+  runSpeed: 5
+  rotateSpeed: 2
+  mount: 0
+  mountType: 0
+  mountedState: 0
+  mountedSpeed: 1.6
+  flyingSpeed: 2.5
+  waterSurface: 0
+  d_fromWaterSurface: 0
+  inWater: 0
+  groundDirection: {fileID: 1853524785}
+  moveDirection: {fileID: 1715132228}
+  fallDirection: {fileID: 913967236}
+  swimDirection: {fileID: 98246663}
+--- !u!114 &92912301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8731291445407105176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c94995ae75234091a563a177deb8142, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8736599674658448660
 GameObject:
   m_ObjectHideFlags: 0
