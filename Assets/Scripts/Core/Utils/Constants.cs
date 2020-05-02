@@ -36,4 +36,19 @@ public class Constants : MonoBehaviour
     }
 
 
+    public enum MountType
+    {
+        Flying, Ground
+    }
+
+    public enum MoveState
+    {
+        locomotion, swimming, flying
+    }
+
+    public enum MountedState
+    {
+        unmounted, mounted, mountedFlying
+    }
+
 }

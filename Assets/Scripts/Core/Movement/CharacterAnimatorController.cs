@@ -53,6 +53,7 @@ public class CharacterAnimatorController : MonoBehaviour
             }
             else if( Input.GetKey(KeyCode.Space))
             {
+                currentAnimation = AnimationStates.Jump;
             }
             else
             {
@@ -61,7 +62,7 @@ public class CharacterAnimatorController : MonoBehaviour
         }
         else
         {
-            Debug.Log("Not grounded");
+            //Debug.Log("Not grounded");
         }
 
         anim.SetInteger("p_currentState", (int)currentAnimation);
