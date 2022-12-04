@@ -22,9 +22,16 @@ public class PauseManager : MonoBehaviour
     {
         if( Input.GetKeyUp(KeyCode.Escape))
         {
-            //attivare o disattivare la pausa
-            ChangePauseStatus();
-            
+            PlayerStats hm = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStats>();
+            if (hm.HasTarget())
+            {
+                hm.SetTarget(null);
+            }
+            else
+            {
+                //attivare o disattivare la pausa
+                ChangePauseStatus();
+            }
         }
     }
 

@@ -34,14 +34,15 @@ public class PlayerStats : UnitStats
 
 
         //Target
-        GUI.DrawTexture(new Rect(220, 30, 120, 70), barsBackgroundTexture);
-        GUI.DrawTexture(new Rect(230, 40, unitHpBarLength, 20), hpBarTexture);
-        GUI.DrawTexture(new Rect(230, 65, unitManaBarLength, 20), manaBarTexture);
+        if (HasTarget())
+        {
+            GUI.DrawTexture(new Rect(220, 30, 120, 70), barsBackgroundTexture);
+            GUI.DrawTexture(new Rect(230, 40, unitHpBarLength, 20), hpBarTexture);
+            GUI.DrawTexture(new Rect(230, 65, unitManaBarLength, 20), manaBarTexture);
 
-        GUI.Label(new Rect(250, 40, 200, 20), $"{tarCurHp} / {tarMaxHp}");
-        GUI.Label(new Rect(250, 65, 200, 20), $"{tarCurMana} / {tarMaxMana}");
-
-
+            GUI.Label(new Rect(250, 40, 200, 20), $"{tarCurHp} / {tarMaxHp}");
+            GUI.Label(new Rect(250, 65, 200, 20), $"{tarCurMana} / {tarMaxMana}");
+        }
     }
 
     // Update is called once per frame
@@ -110,7 +111,7 @@ public class PlayerStats : UnitStats
 
             if( creatureAI != null )
             {
-                Debug.Log($"Ho seleziona la creatura con GUID: " + creatureAI.creatureDbInfo.GUID);
+                Debug.Log($"Ho selezionato la creatura con GUID: " + creatureAI.creatureDbInfo.GUID);
             }
         }
         else if( selectedUnit != null )
@@ -120,6 +121,16 @@ public class PlayerStats : UnitStats
                 selectedUnit.transform.GetComponent<UnitStats>().Deselected();
             }
         }
+    }
+
+    public bool HasTarget()
+    {
+        return selectedUnit != null;
+    }
+
+    public void SetTarget(GameObject target)
+    {
+        selectedUnit = target;
     }
 
     internal override void OnDeath()
