@@ -100,6 +100,15 @@ public class CreatureAI : CreatureStats
                 }
             }
         }
+        else
+        {
+            if (isDoingWaypoints)
+            {
+                // Stop movement
+                agent.SetDestination(transform.position);
+                isDoingWaypoints = false;
+            }
+        }
     }
 
     public void SetWaypoints(WaypointData[] waypoints)

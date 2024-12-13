@@ -330,24 +330,23 @@ public class PlayerMovement : MonoBehaviour
     void GetInputs()
     {
         //FORWARDS BACKWARDS CONTROLS  
-        inputs.y = Axis(controls.forwards.GetControlBinding(), controls.backwards.GetControlBinding());
+        inputs.x = Axis(controls.forwards.GetControlBinding(), controls.backwards.GetControlBinding());
 
 
         if (autoRun)
         {
-            inputs.y += Axis(true, false);
-
-            inputs.y = Mathf.Clamp(inputs.y, -1, 1);
+            inputs.x += Axis(true, false);
+            inputs.x = Mathf.Clamp(inputs.x, -1, 1);
         }
 
         //STRAFE LEFT RIGHT
-        inputs.x = Axis(controls.strafeRight.GetControlBinding(), controls.strafeLeft.GetControlBinding());
+        inputs.y = Axis(controls.strafeRight.GetControlBinding(), controls.strafeLeft.GetControlBinding());
 
         if (steer)
         {
-            inputs.x += Axis(controls.rotateRight.GetControlBinding(), controls.rotateLeft.GetControlBinding());
+            inputs.y += Axis(controls.rotateRight.GetControlBinding(), controls.rotateLeft.GetControlBinding());
 
-            inputs.x = Mathf.Clamp(inputs.x, -1, 1);
+            inputs.y = Mathf.Clamp(inputs.y, -1, 1);
         }
 
         //ROTATE LEFT RIGHT
@@ -357,7 +356,7 @@ public class PlayerMovement : MonoBehaviour
             rotation = Axis(controls.rotateRight.GetControlBinding(), controls.rotateLeft.GetControlBinding());
             */
 
-        rotation = Axis(controls.rotateRight.GetControlBinding(), controls.rotateLeft.GetControlBinding());
+        rotation = Axis(controls.rotateLeft.GetControlBinding(), controls.rotateRight.GetControlBinding());
 
         //ToggleRun
         if (controls.walkRun.GetControlBindingDown())
@@ -505,10 +504,10 @@ public class PlayerMovement : MonoBehaviour
         float axis = 0;
 
         if (pos)
-            axis += 1;
+            axis -= 1;
 
         if (neg)
-            axis -= 1;
+            axis += 1;
 
         return axis;
     }

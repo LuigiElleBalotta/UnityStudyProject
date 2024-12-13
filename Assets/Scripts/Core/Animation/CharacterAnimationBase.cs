@@ -19,7 +19,8 @@ public class CharacterAnimationBase : MonoBehaviour
         SwimBack = 9,
         SwimLeft = 10,
         SwimRight = 11,
-        SwimForward = 12
+        SwimForward = 12,
+        Death = 13,
     }
 
     public AnimationStates currentState;
