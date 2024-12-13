@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static CharacterAnimationBase;
 using static Constants;
 
 public class UnitStats : MonoBehaviour
@@ -261,10 +262,34 @@ public class UnitStats : MonoBehaviour
     {
         if( selectedUnit != null )
         {
-            Vector3 spawnSpellLoc = new Vector3(this.transform.position.x, this.transform.position.y, this.transform.position.z);
-            GameObject clone;
-            clone = Instantiate(RangedSpellPrefab, spawnSpellLoc, Quaternion.identity);
-            clone.transform.GetComponent<RangedSpell>().Target = selectedUnit;
+            // if selected unit is dead, return
+            if (!selectedUnit.GetComponent<UnitStats>().IsAlive())
+            {
+                Debug.Log("Target is dead, cannot cast any spell");
+                return;
+            }
+
+            // Get caster position
+            var caster = this.transform;
+            if (caster != null )
+            {
+                // Should spawn in front of the caster (z is where the player is looking at)
+                // Get the caster position and add 5.0f to the z axis
+                Vector3 spawnSpellLoc = new Vector3(caster.position.x, caster.position.y + 1.2f, caster.position.z - 0f);
+                GameObject clone;
+                var casterOrientation = caster.rotation;
+                clone = Instantiate(RangedSpellPrefab, spawnSpellLoc, casterOrientation);
+                clone.transform.GetComponent<RangedSpell>().Target = selectedUnit;
+
+                // Caster's rigidbody should ignore the spell's rigidbody
+                Physics.IgnoreCollision(caster.GetComponent<Collider>(), clone.GetComponent<Collider>());
+
+                // When clone is destroyed, call ReceiveDamage on the target
+                clone.transform.GetComponent<RangedSpell>().OnDestroyEvent += () => selectedUnit.GetComponent<UnitStats>().ReceiveDamage(10);
+            } else
+            {
+                Debug.LogError("BodyCenter not found!");
+            }            
         }
         else
         {
@@ -274,7 +299,15 @@ public class UnitStats : MonoBehaviour
 
     public void ReceiveDamage( float damage )
     {
+        if (curHp <= 0)
+            return;
+
         curHp -= damage;
+
+        if (curHp <= 0)
+        {
+            OnDeath();
+        }
 
         Debug.Log($"[{gameObject.name}] Current HP: { curHp }");
     }
@@ -296,7 +329,27 @@ public class UnitStats : MonoBehaviour
 
     internal virtual void OnDeath()
     {
+        if (!isDead)
+        {
+            isDead = true;
 
+            // Force hp to 0
+            curHp = 0;
+
+            // Selected unit should be null
+            selectedUnit = null;
+
+            // Should not move anymore
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
+
+            // Play death animation
+            Debug.Log("Death animation");
+            var anim = GetComponent<Animator>();
+            if (anim != null)
+            {
+                anim.SetInteger("p_currentState", (int)AnimationStates.Death);
+            }
+        }
     }
 
     internal virtual void OnRespawn()

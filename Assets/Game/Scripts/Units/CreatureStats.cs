@@ -14,6 +14,5 @@ public class CreatureStats : UnitStats
     {
         base.ManagePowers();
         base.ManageSelectedUnit();
-
     }
 }

@@ -7,6 +7,9 @@ TagManager:
   - PlayerContainer
   - enemy
   - Platform
+  - PlayerCenter
+  - BodyCenter
+  - UnitRig
   layers:
   - Default
   - TransparentFX

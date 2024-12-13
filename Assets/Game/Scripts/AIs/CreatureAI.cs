@@ -41,8 +41,6 @@ public class CreatureAI : CreatureStats
         anim = GetComponent<Animator>();
 
         _initialized = false;
-        
-        
     }
 
     void InitCreatureStats()
@@ -98,6 +96,14 @@ public class CreatureAI : CreatureStats
                         }
                     } 
                 }
+            }
+        } else
+        {
+            if (isDoingWaypoints)
+            {
+                // Stop movement
+                agent.SetDestination(transform.position);
+                isDoingWaypoints = false;
             }
         }
     }
