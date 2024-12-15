@@ -10,7 +10,10 @@ public class RangedSpell : MonoBehaviour
 
     void Start()
     {
-        
+        if (Target == null)
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     // Update is called once per frame

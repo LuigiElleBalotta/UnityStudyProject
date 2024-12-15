@@ -321,6 +321,17 @@ public class UnitStats : MonoBehaviour
         return curHp > 0;
     }
 
+    public bool IsMoving()
+    {
+        // Check if it's not in idle state
+        var anim = GetComponent<Animator>();
+        if (anim != null)
+        {
+            return anim.GetInteger("p_currentState") != (int)AnimationStates.Stand;
+        }
+        return false;
+    }
+
     internal virtual void OnDeath()
     {
         if (!isDead)
