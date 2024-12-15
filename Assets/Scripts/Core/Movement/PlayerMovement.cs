@@ -78,6 +78,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        var chatBox = GameObject.Find("ChatInputField");
+        if (chatBox != null && chatBox.GetComponent<UnityEngine.UI.InputField>().isFocused)
+        {
+            return;
+        }
+
         GetInputs();
         GetSwimDirection();
 
