@@ -27,6 +27,8 @@ public class RangedSpell : MonoBehaviour
                 if (!targetStats.IsAlive())
                 {
                     Debug.Log("Target is dead, cannot cast any spell");
+
+                    Destroy(this.gameObject);
                     return;
                 }
             }

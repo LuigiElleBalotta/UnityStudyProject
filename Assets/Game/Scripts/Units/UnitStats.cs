@@ -74,6 +74,8 @@ public class UnitStats : MonoBehaviour
     //Positions: non sono sicuro vada bene qui
     public Vector3 respawnPosition = Vector3.zero;
 
+    public AnimationManager animManager;
+
     public bool _isInCombat {  get
         {
             return selectedUnit != null;
@@ -179,6 +181,13 @@ public class UnitStats : MonoBehaviour
             curMana = 0;
     }
 
+    private bool IsEnemyInAConeOfDegrees(float degrees, GameObject enemy)
+    {
+        Vector3 toTarget = (enemy.transform.position - transform.position).normalized;
+        float angle = Vector3.Angle(new Vector3(transform.position.z, transform.position.x, transform.position.y), toTarget);
+        return angle < degrees;
+    }   
+
     internal void ManageSelectedUnit()
     {
         if (selectedUnit != null)
@@ -194,8 +203,16 @@ public class UnitStats : MonoBehaviour
             //Calculate if the unit is facing the enemy and is within attack distance.
             float distance = Vector3.Distance(this.transform.position, selectedUnit.transform.position);
             Vector3 targetDir = selectedUnit.transform.position - transform.position;
-            Vector3 forward = transform.forward;
+            Vector3 forward = new Vector3(-1, 0, 0);
+
+            // TODO: knowing that the unit is seeing the enemy in front of him by "x" axis, we should check if we can attack in front of us in a cone of 60 degrees...
+
             float angle = Vector3.Angle(targetDir, forward);
+
+            // Draw two rays to see if the unit is in line of sight
+            Debug.DrawRay(transform.position, targetDir, Color.red);
+
+            var isEnemyInCone = IsEnemyInAConeOfDegrees(60.0f, selectedUnit);
 
             if (angle > 60.0)
             {
@@ -205,7 +222,7 @@ public class UnitStats : MonoBehaviour
             }
             else
             {
-                if( distance < 60 )
+                if( distance < 3.0f && !behindEnemy )
                 {
                     canAttack = true;
                 }
@@ -345,7 +362,6 @@ public class UnitStats : MonoBehaviour
             // Should not move anymore
             GetComponent<Rigidbody>().velocity = Vector3.zero;
             // Play death animation
-            Debug.Log("Death animation");
             var anim = GetComponent<Animator>();
             if (anim != null)
             {
@@ -357,5 +373,14 @@ public class UnitStats : MonoBehaviour
     internal virtual void OnRespawn()
     {
 
+    }
+
+    public void TryPlayEmote(CharacterAnimationBase.AnimationStates emote, string name)
+    {
+        var anim = GetComponent<Animator>();
+        if (anim != null && !IsMoving())
+        {
+            animManager.LoadAnimation(anim, name, null);
+        }
     }
 }

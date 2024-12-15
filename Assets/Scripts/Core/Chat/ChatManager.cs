@@ -41,20 +41,30 @@ public class ChatManager : MonoBehaviour
 
     public void SendMessageToChatUI(string text)
     {
-        if (messages.Count >= maxMessages)
+        // Check if we are using an emote
+        if (text.StartsWith("/emote "))
         {
-            Destroy(messages[0].textObject.gameObject);
-            messages.Remove(messages[0]);
-        }
+            // Get the player
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
 
-        Message msg = new Message();
-        msg.text = text;
+            player.GetComponent<UnitStats>().TryPlayEmote(CharacterAnimationBase.AnimationStates.EmoteMode, text.Replace("/emote ", ""));
+        } else
+        {
+            if (messages.Count >= maxMessages)
+            {
+                Destroy(messages[0].textObject.gameObject);
+                messages.Remove(messages[0]);
+            }
 
-        GameObject newText = Instantiate(textObject, chatPanel.transform);
-        msg.textObject = newText.GetComponent<Text>();
-        msg.textObject.text = msg.text;
+            Message msg = new Message();
+            msg.text = text;
 
-        messages.Add(msg);
+            GameObject newText = Instantiate(textObject, chatPanel.transform);
+            msg.textObject = newText.GetComponent<Text>();
+            msg.textObject.text = msg.text;
+
+            messages.Add(msg);
+        }        
     }
 }
 

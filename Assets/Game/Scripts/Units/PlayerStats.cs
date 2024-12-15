@@ -79,6 +79,7 @@ public class PlayerStats : UnitStats
             var ai = selectedUnit.GetComponent<CreatureAI>();
             if( ai )
             {
+                ai.isSelectedByPlayer = true;
                 tarCurHp = ai.curHp;
                 tarMaxHp = ai.maxHp;
                 tarCurMana = ai.curMana;

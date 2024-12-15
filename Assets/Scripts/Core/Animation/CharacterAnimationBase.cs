@@ -21,6 +21,9 @@ public class CharacterAnimationBase : MonoBehaviour
         SwimRight = 11,
         SwimForward = 12,
         Death = 13,
+        EmoteMode = 14,
+
+        AttackUnarmed = 15
     }
 
     public AnimationStates currentState;

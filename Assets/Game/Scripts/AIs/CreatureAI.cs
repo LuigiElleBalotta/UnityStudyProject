@@ -10,6 +10,7 @@ public class CreatureAI : CreatureStats
     bool _initialized;
     public Creature creatureDbInfo;
     public CreatureTemplate creatureTemplate;
+    public bool isSelectedByPlayer;
 
     WaypointData[] _waypoints;
     bool isDoingWaypoints;
@@ -42,7 +43,7 @@ public class CreatureAI : CreatureStats
 
         _initialized = false;
         
-        
+        isSelectedByPlayer = false;
     }
 
     void InitCreatureStats()
@@ -83,6 +84,11 @@ public class CreatureAI : CreatureStats
                     float dist = agent.remainingDistance;
                     if (dist != Mathf.Infinity && agent.pathStatus == NavMeshPathStatus.PathComplete && agent.remainingDistance == 0)
                     {
+                        if (_waypoints[currentWaypointIdx] == null)
+                        {
+                            Debug.LogError("Waypoint is null");
+                            return;
+                        }
                         //arrived
                         currentEndpointPosition = new Vector3(_waypoints[currentWaypointIdx].PositionX,
                                                               _waypoints[currentWaypointIdx].PositionY,

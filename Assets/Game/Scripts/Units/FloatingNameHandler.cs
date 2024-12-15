@@ -23,11 +23,15 @@ public class FloatingNameHandler : MonoBehaviour
             TextName.transform.LookAt(Camera.main.transform.position);
             TextName.transform.Rotate(0, 180, 0);
             textMesh = TextName.GetComponent<TextMesh>();
-            textMesh.color = Color.blue;
 
             var ai = TextName.GetComponentInParent<CreatureAI>();
+
             if( ai )
+            {
+                textMesh.color = !ai.isSelectedByPlayer ? Color.blue : Color.green;
                 textMesh.text = ai.creatureTemplate.Name;
+            }
+                
         }
     }
 }
