@@ -112,9 +112,9 @@ public class WarcraftCamera : MonoBehaviour
             // otherwise, ease behind the target if any of the directional keys are pressed
             else if (!Mathf.Approximately(Input.GetAxis("Vertical"), 0) || !Mathf.Approximately(Input.GetAxis("Horizontal"), 0))
             {
-                if (target.IsAlive() /*&& input.IsPlayerInputAllowed*/)
+                if (target.IsAlive())
                 {
-                    float targetRotationAngle = target.transform.eulerAngles.y;
+                    float targetRotationAngle = target.transform.eulerAngles.y - 90;
                     float currentRotationAngle = transform.eulerAngles.y;
                     xDeg = Mathf.LerpAngle(currentRotationAngle, targetRotationAngle, rotationDampening * Time.deltaTime);
                 }

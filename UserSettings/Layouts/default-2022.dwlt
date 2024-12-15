@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 55
+  controlID: 131
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 56
+  controlID: 55
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 57
+  controlID: 56
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,7 +396,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources/Characters/LadySylvanasWindrunner
+    - Assets/Scripts/Core/Camera
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -404,16 +404,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources/Characters/LadySylvanasWindrunner
+  - Assets/Scripts/Core/Camera
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\repositories\NO_WORK\WowStudyProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f0700000
-    m_LastClickedID: 28912
-    m_ExpandedIDs: 00000000da5b0000be700000c6700000ca700000ea700000ec700000007100003420030000ca9a3bffffff7f
+    m_SelectedIDs: 42750000
+    m_LastClickedID: 30018
+    m_ExpandedIDs: 00000000dc5b0000d0700000d4700000f47000004475000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -441,7 +441,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da5b0000
+    m_ExpandedIDs: 00000000dc5b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -583,9 +583,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: faf8ffff
-      m_LastClickedID: -1798
-      m_ExpandedIDs: 6456e1ff6c56e1ff5e6de1ff666de1ff5c55f2ff98f6fffffaf8ffff00fbffff6c500000
+      m_SelectedIDs: 6c500000
+      m_LastClickedID: 20588
+      m_ExpandedIDs: 00fbffff6c500000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -953,9 +953,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1058.1969, y: 24.189545, z: 1278.7686}
+    m_Target: {x: 1158.2227, y: -20.565714, z: 1271.9728}
     speed: 2
-    m_Value: {x: 1058.1969, y: 24.189545, z: 1278.7686}
+    m_Value: {x: 1158.2227, y: -20.565714, z: 1271.9728}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1001,13 +1001,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.2387173, y: -0.45023748, z: 0.12638697, w: 0.85110646}
+    m_Target: {x: 0.183606, y: 0.6390477, z: -0.16072875, w: 0.72947586}
     speed: 2
-    m_Value: {x: 0.23780985, y: -0.44785774, z: 0.12499505, w: 0.8527873}
+    m_Value: {x: 0.18360034, y: 0.63902795, z: -0.16072379, w: 0.7294533}
   m_Size:
-    m_Target: 1.2567229
+    m_Target: 47.99971
     speed: 2
-    m_Value: 1.2567229
+    m_Value: 47.99971
   m_Ortho:
     m_Target: 0
     speed: 2
