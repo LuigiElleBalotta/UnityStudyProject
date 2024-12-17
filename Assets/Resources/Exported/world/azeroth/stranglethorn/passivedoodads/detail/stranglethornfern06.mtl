@@ -1,0 +1,3 @@
+newmtl mat_strangletree02_leaves
+illum 1
+map_Kd strangletree02_leaves.png

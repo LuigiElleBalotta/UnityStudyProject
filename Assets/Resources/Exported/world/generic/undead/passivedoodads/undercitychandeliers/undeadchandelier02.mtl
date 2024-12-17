@@ -1,0 +1,12 @@
+newmtl mat_jlo_udercity_trim_01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\trim\jlo_udercity_trim_01.png
+newmtl mat_jlo_undercity_torch
+illum 1
+map_Kd ..\undercitytorches\jlo_undercity_torch.png
+newmtl mat_jlo_undeadzigg_chain
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\decoration\jlo_undeadzigg_chain.png
+newmtl mat_undeadlantern01
+illum 1
+map_Kd undeadlantern01.png

@@ -1,0 +1,3 @@
+newmtl mat_termite_shaft
+illum 1
+map_Kd termite_shaft.png

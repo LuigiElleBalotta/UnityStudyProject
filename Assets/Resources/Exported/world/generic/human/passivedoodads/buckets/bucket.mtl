@@ -1,0 +1,6 @@
+newmtl mat_potbellystovecopy
+illum 1
+map_Kd ..\globes\potbellystovecopy.png
+newmtl mat_desk
+illum 1
+map_Kd desk.png

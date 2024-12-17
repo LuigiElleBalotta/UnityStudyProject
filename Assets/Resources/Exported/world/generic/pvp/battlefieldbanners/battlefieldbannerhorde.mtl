@@ -1,0 +1,15 @@
+newmtl mat_battlefieldbanner01
+illum 1
+map_Kd battlefieldbanner01.png
+newmtl mat_yellow_star_dim
+illum 1
+map_Kd ..\..\gnome\activedoodads\gnomemachine\yellow_star_dim.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_lavalump2
+illum 1
+map_Kd ..\..\..\..\spells\lavalump2.png
+newmtl mat_battlehordelogo01
+illum 1
+map_Kd battlehordelogo01.png

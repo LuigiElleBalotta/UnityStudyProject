@@ -1,0 +1,9 @@
+newmtl mat_battlegladearrow
+illum 1
+map_Kd battlegladearrow.png
+newmtl mat_ruinedbalista
+illum 1
+map_Kd ruinedbalista.png
+newmtl mat_armorreflect4
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\shield\armorreflect4.png

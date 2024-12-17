@@ -1,0 +1,3 @@
+newmtl mat_flowersack01
+illum 1
+map_Kd ..\..\..\goblin\passivedoodads\goblinrocketcarts\flowersack01.png

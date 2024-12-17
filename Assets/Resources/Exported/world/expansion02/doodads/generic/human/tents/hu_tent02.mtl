@@ -1,0 +1,6 @@
+newmtl mat_humantentrope01
+illum 1
+map_Kd humantentrope01.png
+newmtl mat_tentbasecopy
+illum 1
+map_Kd tentbasecopy.png

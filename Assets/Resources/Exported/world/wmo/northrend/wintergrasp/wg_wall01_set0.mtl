@@ -1,0 +1,9 @@
+newmtl mat_wr_wall_ionic_snow
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wyrmrest\snow\wr_wall_ionic_snow.png
+newmtl mat_wr_trim02_floral_snow
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wyrmrest\snow\wr_trim02_floral_snow.png
+newmtl mat_wr_trim03_metal
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wyrmrest\wr_trim03_metal.png

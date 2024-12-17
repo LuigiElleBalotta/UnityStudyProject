@@ -1,0 +1,6 @@
+newmtl mat_gatestone01
+illum 1
+map_Kd gatestone01.png
+newmtl mat_basestone
+illum 1
+map_Kd basestone.png

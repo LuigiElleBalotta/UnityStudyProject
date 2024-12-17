@@ -1,0 +1,6 @@
+newmtl mat_tj_gnomestreetsign
+illum 1
+map_Kd ..\signposts\tj_gnomestreetsign.png
+newmtl mat_tj_gnomemetalbitsb
+illum 1
+map_Kd tj_gnomemetalbitsb.png

@@ -1,0 +1,6 @@
+newmtl mat_borean_seaweed_01
+illum 1
+map_Kd borean_seaweed_01.png
+newmtl mat_borean_starfish_01
+illum 1
+map_Kd borean_starfish_01.png

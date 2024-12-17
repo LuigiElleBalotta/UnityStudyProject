@@ -1,0 +1,15 @@
+newmtl mat_borean_ceiling
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\magnatar\borean_ceiling.png
+newmtl mat_eb_borean_midfloorsmooth
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\magnatar\eb_borean_midfloorsmooth.png
+newmtl mat_eb_borean_midfloorcrackled
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\magnatar\eb_borean_midfloorcrackled.png
+newmtl mat_eb_borean_cavernwall02
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\magnatar\eb_borean_cavernwall02.png
+newmtl mat_borean_ext_rock
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\magnatar\borean_ext_rock.png

@@ -1,0 +1,9 @@
+newmtl mat_uldamanbookshelf
+illum 1
+map_Kd ..\bookshelves\uldamanbookshelf.png
+newmtl mat_uldamanbenchtop
+illum 1
+map_Kd uldamanbenchtop.png
+newmtl mat_uldamanchairleg
+illum 1
+map_Kd uldamanchairleg.png

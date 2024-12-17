@@ -4682,6 +4682,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1714348033
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1088.6917
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.586235
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1260.2521
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 22988e69f3585e14e969a70892022d84,
+        type: 3}
+      propertyPath: m_Name
+      value: alleria3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22988e69f3585e14e969a70892022d84, type: 3}
 --- !u!850595691 &1725841324
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -5632,3 +5700,4 @@ SceneRoots:
   - {fileID: 1996851316784554845}
   - {fileID: 514624939}
   - {fileID: 1058089201}
+  - {fileID: 1714348033}

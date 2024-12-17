@@ -1,0 +1,15 @@
+newmtl mat_6torchdif
+illum 1
+map_Kd 6torchdif.png
+newmtl mat_6dr_crystal
+illum 1
+map_Kd 6dr_crystal.png
+newmtl mat_t_vfx_fire_anim_stylized_desat_02
+illum 1
+map_Kd t_vfx_fire_anim_stylized_desat_02.png
+newmtl mat_fire_bright_mod2x_a
+illum 1
+map_Kd fire_bright_mod2x_a.png
+newmtl mat_flare05
+illum 1
+map_Kd flare05.png

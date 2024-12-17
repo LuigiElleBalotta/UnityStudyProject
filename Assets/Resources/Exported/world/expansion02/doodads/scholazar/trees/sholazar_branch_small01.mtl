@@ -1,0 +1,6 @@
+newmtl mat_sholazarleaves_new01
+illum 1
+map_Kd sholazarleaves_new01.png
+newmtl mat_sholazarhugecanopy_trunk_03
+illum 1
+map_Kd sholazarhugecanopy_trunk_03.png

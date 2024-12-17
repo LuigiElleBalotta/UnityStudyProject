@@ -1,0 +1,3 @@
+newmtl mat_sc_obelisk
+illum 1
+map_Kd sc_obelisk.png

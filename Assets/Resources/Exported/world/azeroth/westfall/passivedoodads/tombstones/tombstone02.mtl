@@ -1,0 +1,3 @@
+newmtl mat_cemetery01
+illum 1
+map_Kd ..\..\..\..\..\interface\glues\models\ui_scourge\cemetery01.png

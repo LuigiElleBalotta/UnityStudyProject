@@ -1,0 +1,12 @@
+newmtl mat_wt_sled01
+illum 1
+map_Kd wt_sled01.png
+newmtl mat_wt_sled02
+illum 1
+map_Kd wt_sled02.png
+newmtl mat_wt_misc_02
+illum 1
+map_Kd wt_misc_02.png
+newmtl mat_jlo_wtauren_trim02
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wintertauren\jlo_wtauren_trim02.png

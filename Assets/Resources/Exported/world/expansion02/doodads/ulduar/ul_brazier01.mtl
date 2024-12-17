@@ -1,0 +1,15 @@
+newmtl mat_ul_lamptex2
+illum 1
+map_Kd ul_lamptex2.png
+newmtl mat_ul_copper_ref_02
+illum 1
+map_Kd ul_copper_ref_02.png
+newmtl mat_ul_glow_orb
+illum 1
+map_Kd ul_glow_orb.png
+newmtl mat_glowball
+illum 1
+map_Kd ..\dalaran\glowball.png
+newmtl mat_ul_raylight01
+illum 1
+map_Kd ul_raylight01.png

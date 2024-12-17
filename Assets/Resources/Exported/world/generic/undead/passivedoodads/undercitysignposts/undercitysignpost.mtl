@@ -1,0 +1,3 @@
+newmtl mat_udercity_lamppost
+illum 1
+map_Kd udercity_lamppost.png

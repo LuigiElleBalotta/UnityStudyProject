@@ -1,0 +1,12 @@
+newmtl mat_tj_gnomemetalbits
+illum 1
+map_Kd ..\..\..\..\generic\gnome\passivedoodads\lights\tj_gnomemetalbits.png
+newmtl mat_jlo_goblinzep_rocket_spec
+illum 1
+map_Kd jlo_goblinzep_rocket_spec.png
+newmtl mat_jlo_darkp_statue_02
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\darkportal\jlo_darkp_statue_02.png
+newmtl mat_mm_gnome_gear_01_spec
+illum 1
+map_Kd mm_gnome_gear_01_spec.png

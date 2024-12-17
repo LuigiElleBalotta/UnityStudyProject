@@ -1,0 +1,6 @@
+newmtl mat_candle_with_glow
+illum 1
+map_Kd candle_with_glow.png
+newmtl mat_6_skull_candle
+illum 1
+map_Kd 6_skull_candle.png

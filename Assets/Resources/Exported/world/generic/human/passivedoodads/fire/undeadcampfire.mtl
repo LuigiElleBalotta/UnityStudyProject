@@ -1,0 +1,12 @@
+newmtl mat_flamelicksmallblue
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\smalldock\flamelicksmallblue.png
+newmtl mat_elwynncampfirerock02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\campfire\elwynncampfirerock02.png
+newmtl mat_battlegladespinedarksat64
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\skeleton\battlegladespinedarksat64.png
+newmtl mat_battlegladeskulldarksat
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\skeleton\battlegladeskulldarksat.png

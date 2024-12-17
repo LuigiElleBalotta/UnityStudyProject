@@ -1,0 +1,3 @@
+newmtl mat_cavebone01
+illum 1
+map_Kd ..\..\..\troll\passivedoodads\mummytrolls\cavebone01.png

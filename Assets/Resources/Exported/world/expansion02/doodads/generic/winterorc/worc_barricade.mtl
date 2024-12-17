@@ -1,0 +1,6 @@
+newmtl mat_jlo_worc_metaltrim_01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\winterorcs\jlo_worc_metaltrim_01.png
+newmtl mat_jlo_worc_chains
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\winterorcs\jlo_worc_chains.png

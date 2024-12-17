@@ -1,0 +1,3 @@
+newmtl mat_ghostlands_obelisk
+illum 1
+map_Kd ghostlands_obelisk.png

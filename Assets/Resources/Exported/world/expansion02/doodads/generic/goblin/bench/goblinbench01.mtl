@@ -1,0 +1,3 @@
+newmtl mat_goblinbench_01
+illum 1
+map_Kd goblinbench_01.png

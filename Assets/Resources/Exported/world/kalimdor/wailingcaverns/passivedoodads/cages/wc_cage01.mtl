@@ -1,0 +1,6 @@
+newmtl mat_stickbundle
+illum 1
+map_Kd ..\stickbundles\stickbundle.png
+newmtl mat_cagebranches
+illum 1
+map_Kd cagebranches.png

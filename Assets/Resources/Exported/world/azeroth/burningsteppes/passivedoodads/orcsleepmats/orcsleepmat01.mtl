@@ -1,0 +1,3 @@
+newmtl mat_firmatt06
+illum 1
+map_Kd firmatt06.png

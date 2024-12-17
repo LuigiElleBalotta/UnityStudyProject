@@ -1,0 +1,3 @@
+newmtl mat_mm_rockdetail01
+illum 1
+map_Kd mm_rockdetail01.png

@@ -1,0 +1,9 @@
+newmtl mat_goblin_fuelcell
+illum 1
+map_Kd ..\..\..\..\generic\goblin\passivedoodads\lostisles\goblin_fuelcell.png
+newmtl mat_orbreflectbright
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\orbreflectbright.png
+newmtl mat_clouds4
+illum 1
+map_Kd ..\..\..\..\..\spells\clouds4.png

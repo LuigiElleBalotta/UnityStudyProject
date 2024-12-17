@@ -1,0 +1,3 @@
+newmtl mat_ember
+illum 1
+map_Kd ..\..\..\..\..\creature\fireelemental\ember.png

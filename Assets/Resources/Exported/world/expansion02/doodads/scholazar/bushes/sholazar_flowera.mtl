@@ -1,0 +1,3 @@
+newmtl mat_sb_plantsa
+illum 1
+map_Kd sb_plantsa.png

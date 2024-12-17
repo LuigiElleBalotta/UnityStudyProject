@@ -1,0 +1,9 @@
+newmtl mat_azjol_mushroom01
+illum 1
+map_Kd azjol_mushroom01.png
+newmtl mat_azjol_mushroom01_glow
+illum 1
+map_Kd azjol_mushroom01_glow.png
+newmtl mat_genericglow64
+illum 1
+map_Kd ..\..\..\..\..\spells\genericglow64.png

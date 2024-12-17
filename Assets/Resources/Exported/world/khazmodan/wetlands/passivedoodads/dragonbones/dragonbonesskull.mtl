@@ -1,0 +1,3 @@
+newmtl mat_dragonbone
+illum 1
+map_Kd ..\..\..\..\generic\human\passivedoodads\museumskeletons\dragonbone.png

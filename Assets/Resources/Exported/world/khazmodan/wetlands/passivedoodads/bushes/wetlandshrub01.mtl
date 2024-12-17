@@ -1,0 +1,6 @@
+newmtl mat_wetlandsshrubbbranch
+illum 1
+map_Kd wetlandsshrubbbranch.png
+newmtl mat_leaves
+illum 1
+map_Kd leaves.png

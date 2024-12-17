@@ -1,0 +1,3 @@
+newmtl mat_catapultball
+illum 1
+map_Kd catapultball.png

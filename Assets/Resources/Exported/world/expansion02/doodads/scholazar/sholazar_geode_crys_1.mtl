@@ -1,0 +1,6 @@
+newmtl mat_sholazar_deep_red
+illum 1
+map_Kd sholazar_deep_red.png
+newmtl mat_silithus_crystal_environment_map
+illum 1
+map_Kd ..\..\..\kalimdor\silithus\passivedoodads\crystals\silithus_crystal_environment_map.png

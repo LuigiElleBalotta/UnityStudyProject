@@ -1,0 +1,6 @@
+newmtl mat_toonsmoke16
+illum 1
+map_Kd ..\..\..\..\..\spells\toonsmoke16.png
+newmtl mat_sc_brazier
+illum 1
+map_Kd sc_brazier.png

@@ -1,0 +1,9 @@
+newmtl mat_be_floatinglantern_burnt
+illum 1
+map_Kd be_floatinglantern_burnt.png
+newmtl mat_smokepuff
+illum 1
+map_Kd ..\..\..\expansion01\doodads\hellfirepeninsula\darkportal\smokepuff.png
+newmtl mat_dust3_a
+illum 1
+map_Kd dust3_a.png

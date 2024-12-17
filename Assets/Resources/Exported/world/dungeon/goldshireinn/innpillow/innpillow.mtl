@@ -1,0 +1,3 @@
+newmtl mat_mm_pillow_opt
+illum 1
+map_Kd mm_pillow_opt.png

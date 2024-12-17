@@ -1,0 +1,9 @@
+newmtl mat_nr_torch
+illum 1
+map_Kd nr_torch.png
+newmtl mat_t_vfx_fire_anim_stylized_desat_02
+illum 1
+map_Kd ..\..\..\..\..\..\item\objectcomponents\weapon\t_vfx_fire_anim_stylized_desat_02.png
+newmtl mat_fire_bright_mod2x_a
+illum 1
+map_Kd ..\..\..\..\..\..\spells\fire_bright_mod2x_a.png

@@ -1,0 +1,9 @@
+newmtl mat_club_1h_torch_a_01
+illum 1
+map_Kd club_1h_torch_a_01.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_glow
+illum 1
+map_Kd ..\..\nightelf\passivedoodads\magicalimplements\glow.png

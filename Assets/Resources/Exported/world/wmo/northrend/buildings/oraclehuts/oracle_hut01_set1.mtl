@@ -1,0 +1,15 @@
+newmtl mat_oracle_hutwalleaves
+illum 1
+map_Kd ..\..\..\..\environment\doodad\oracle\tex\oracle_hutwalleaves.png
+newmtl mat_oracle_bone
+illum 1
+map_Kd ..\..\..\..\environment\doodad\oracle\tex\oracle_bone.png
+newmtl mat_oracle_hutwalleaves_01
+illum 1
+map_Kd ..\..\..\..\environment\doodad\oracle\tex\oracle_hutwalleaves_01.png
+newmtl mat_o_lamppost
+illum 1
+map_Kd ..\..\..\..\expansion02\doodads\generic\oracle\o_lamppost.png
+newmtl mat_o_lamppost
+illum 1
+map_Kd ..\..\..\..\expansion02\doodads\generic\oracle\o_lamppost.png

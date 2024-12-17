@@ -1,0 +1,6 @@
+newmtl mat_plaguelandsbanner01
+illum 1
+map_Kd plaguelandsbanner01.png
+newmtl mat_sc_chain
+illum 1
+map_Kd ..\..\..\..\expansion02\doodads\generic\scourge\sc_chain.png

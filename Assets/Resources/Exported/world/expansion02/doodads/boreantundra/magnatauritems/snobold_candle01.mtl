@@ -1,0 +1,9 @@
+newmtl mat_snoboldcandles_01
+illum 1
+map_Kd snoboldcandles_01.png
+newmtl mat_glowwhite32
+illum 1
+map_Kd ..\..\..\..\generic\human\passivedoodads\candelabras\glowwhite32.png
+newmtl mat_glowball
+illum 1
+map_Kd ..\..\dalaran\glowball.png

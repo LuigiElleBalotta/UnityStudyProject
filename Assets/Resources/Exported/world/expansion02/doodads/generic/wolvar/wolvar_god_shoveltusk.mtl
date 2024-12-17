@@ -1,0 +1,12 @@
+newmtl mat_skull_shoveltusk
+illum 1
+map_Kd skull_shoveltusk.png
+newmtl mat_wolvar_totem01
+illum 1
+map_Kd wolvar_totem01.png
+newmtl mat_sholazarpalm_tree01
+illum 1
+map_Kd ..\..\scholazar\trees\sholazarpalm_tree01.png
+newmtl mat_sholazarpalm_tree02
+illum 1
+map_Kd ..\..\scholazar\trees\sholazarpalm_tree02.png

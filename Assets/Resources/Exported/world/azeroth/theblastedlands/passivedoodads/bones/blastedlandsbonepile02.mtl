@@ -1,0 +1,6 @@
+newmtl mat_spine02
+illum 1
+map_Kd ..\..\..\..\kalimdor\kalidar\passivedoodads\kalidarharpynest\spine02.png
+newmtl mat_skull03
+illum 1
+map_Kd skull03.png

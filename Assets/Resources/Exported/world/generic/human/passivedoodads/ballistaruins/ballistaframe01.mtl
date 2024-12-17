@@ -1,0 +1,6 @@
+newmtl mat_wood02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\wood02.png
+newmtl mat_wood01
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\wood01.png

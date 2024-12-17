@@ -1,0 +1,6 @@
+newmtl mat_darkirontoolbase01
+illum 1
+map_Kd darkirontoolbase01.png
+newmtl mat_bladebox
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\minecart\bladebox.png

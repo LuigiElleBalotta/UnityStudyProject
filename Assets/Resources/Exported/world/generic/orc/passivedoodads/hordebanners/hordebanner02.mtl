@@ -1,0 +1,15 @@
+newmtl mat_jlo_undeadzigg_chain
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\decoration\jlo_undeadzigg_chain.png
+newmtl mat_ns_wood01
+illum 1
+map_Kd ns_wood01.png
+newmtl mat_mm_orc_bkrtrim_01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\trim\mm_orc_bkrtrim_01.png
+newmtl mat_hordebanner01
+illum 1
+map_Kd hordebanner01.png
+newmtl mat_hordebanner05
+illum 1
+map_Kd hordebanner05.png

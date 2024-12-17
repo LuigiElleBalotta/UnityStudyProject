@@ -1,0 +1,9 @@
+newmtl mat_jlo_snow_wtauren_woodeagle
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wintertauren\snow\jlo_snow_wtauren_woodeagle.png
+newmtl mat_jlo_snow_wtauren_trim01_totem
+illum 1
+map_Kd jlo_snow_wtauren_trim01_totem.png
+newmtl mat_jlo_snow_wtauren_wood01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wintertauren\snow\jlo_snow_wtauren_wood01.png

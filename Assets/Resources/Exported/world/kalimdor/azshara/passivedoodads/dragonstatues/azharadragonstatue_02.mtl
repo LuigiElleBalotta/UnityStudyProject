@@ -1,0 +1,9 @@
+newmtl mat_azaharadragonstatue01
+illum 1
+map_Kd azaharadragonstatue01.png
+newmtl mat_azaharadragonstatue02
+illum 1
+map_Kd azaharadragonstatue02.png
+newmtl mat_azaharadragonstatue03
+illum 1
+map_Kd azaharadragonstatue03.png

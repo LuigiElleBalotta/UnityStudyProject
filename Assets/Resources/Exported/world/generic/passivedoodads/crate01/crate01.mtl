@@ -1,0 +1,3 @@
+newmtl mat_crates01sides
+illum 1
+map_Kd crates01sides.png

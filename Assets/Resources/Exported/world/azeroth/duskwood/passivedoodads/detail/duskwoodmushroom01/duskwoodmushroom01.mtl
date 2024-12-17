@@ -1,0 +1,3 @@
+newmtl mat_mushroom01
+illum 1
+map_Kd mushroom01.png

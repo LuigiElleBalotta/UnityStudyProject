@@ -1,0 +1,3 @@
+newmtl mat_coffin
+illum 1
+map_Kd coffin.png

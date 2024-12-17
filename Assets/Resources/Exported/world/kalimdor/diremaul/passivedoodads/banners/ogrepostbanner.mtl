@@ -1,0 +1,6 @@
+newmtl mat_tatteredogrebanner
+illum 1
+map_Kd tatteredogrebanner.png
+newmtl mat_ogrediremaulpost
+illum 1
+map_Kd ogrediremaulpost.png

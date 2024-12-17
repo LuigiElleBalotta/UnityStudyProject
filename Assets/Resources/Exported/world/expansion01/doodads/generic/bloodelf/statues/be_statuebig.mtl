@@ -1,0 +1,6 @@
+newmtl mat_be_statuebig
+illum 1
+map_Kd be_statuebig.png
+newmtl mat_orbreflect02
+illum 1
+map_Kd ..\..\..\..\..\..\item\objectcomponents\shoulder\orbreflect02.png

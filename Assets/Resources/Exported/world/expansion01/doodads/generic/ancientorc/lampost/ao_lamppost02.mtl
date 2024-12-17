@@ -1,0 +1,12 @@
+newmtl mat_ao_lamppost01
+illum 1
+map_Kd ao_lamppost01.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_lavalump2
+illum 1
+map_Kd ..\..\..\..\..\..\spells\lavalump2.png
+newmtl mat_ao_bridge01
+illum 1
+map_Kd ..\..\..\..\..\environment\doodad\ancientorc\bridge\tex\ao_bridge01.png

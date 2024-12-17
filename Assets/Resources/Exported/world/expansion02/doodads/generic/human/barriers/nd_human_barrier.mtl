@@ -1,0 +1,3 @@
+newmtl mat_nr_hu_barrier
+illum 1
+map_Kd nr_hu_barrier.png

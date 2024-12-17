@@ -1,0 +1,6 @@
+newmtl mat_t_vfx_hero_aura_glob
+illum 1
+map_Kd ..\..\..\..\spells\t_vfx_hero_aura_glob.png
+newmtl mat_t_vfx_flare09
+illum 1
+map_Kd ..\..\..\..\spells\t_vfx_flare09.png

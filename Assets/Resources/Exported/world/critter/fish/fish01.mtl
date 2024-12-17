@@ -1,0 +1,3 @@
+newmtl mat_fishblue
+illum 1
+map_Kd fishblue.png

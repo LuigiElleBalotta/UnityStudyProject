@@ -1,0 +1,3 @@
+newmtl mat_stormwindcrate01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\doodads\stormwindcrate01.png

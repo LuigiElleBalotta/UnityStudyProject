@@ -1,0 +1,9 @@
+newmtl mat_wt_lampslights
+illum 1
+map_Kd wt_lampslights.png
+newmtl mat_wt_misc01
+illum 1
+map_Kd wt_misc01.png
+newmtl mat_wt_hangings01
+illum 1
+map_Kd wt_hangings01.png

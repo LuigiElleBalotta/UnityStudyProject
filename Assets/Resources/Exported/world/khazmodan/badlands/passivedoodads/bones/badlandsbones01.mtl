@@ -1,0 +1,6 @@
+newmtl mat_badlanddinobone01a
+illum 1
+map_Kd badlanddinobone01a.png
+newmtl mat_badspine01
+illum 1
+map_Kd badspine01.png

@@ -1,0 +1,9 @@
+newmtl mat_o_eggs_01
+illum 1
+map_Kd o_eggs_01.png
+newmtl mat_silithus_crystal_environment_map
+illum 1
+map_Kd ..\..\..\..\kalimdor\silithus\passivedoodads\crystals\silithus_crystal_environment_map.png
+newmtl mat_glow
+illum 1
+map_Kd ..\..\..\..\generic\nightelf\passivedoodads\magicalimplements\glow.png

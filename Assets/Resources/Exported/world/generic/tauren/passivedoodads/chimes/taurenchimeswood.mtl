@@ -1,0 +1,3 @@
+newmtl mat_taurenmisc01
+illum 1
+map_Kd ..\kites\taurenmisc01.png

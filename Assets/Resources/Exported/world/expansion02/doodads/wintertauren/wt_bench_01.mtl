@@ -1,0 +1,3 @@
+newmtl mat_wt_bench01
+illum 1
+map_Kd wt_bench01.png

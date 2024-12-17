@@ -1,0 +1,3 @@
+newmtl mat_clothmatt04
+illum 1
+map_Kd clothmatt04.png

@@ -1,0 +1,12 @@
+newmtl mat_ogretorch03
+illum 1
+map_Kd ogretorch03.png
+newmtl mat_genericglow_alpha_128
+illum 1
+map_Kd genericglow_alpha_128.png
+newmtl mat_t_vfx_fire_anim_stylized_desat_02
+illum 1
+map_Kd t_vfx_fire_anim_stylized_desat_02.png
+newmtl mat_fire_bright_mod2x_a
+illum 1
+map_Kd fire_bright_mod2x_a.png

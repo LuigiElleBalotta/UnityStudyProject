@@ -1,0 +1,6 @@
+newmtl mat_o_surfboards
+illum 1
+map_Kd o_surfboards.png
+newmtl mat_glowball02
+illum 1
+map_Kd ..\..\..\..\expansion01\doodads\zangar\mushroom\glowball02.png

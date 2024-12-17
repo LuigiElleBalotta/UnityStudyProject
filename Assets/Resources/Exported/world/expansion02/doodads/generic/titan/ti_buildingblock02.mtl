@@ -1,0 +1,9 @@
+newmtl mat_eb_ulduarfloor21
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\ulduar\eb_ulduarfloor21.png
+newmtl mat_wr_column_chamf_ends
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wyrmrest\wr_column_chamf_ends.png
+newmtl mat_wr_bricks
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wyrmrest\wr_bricks.png

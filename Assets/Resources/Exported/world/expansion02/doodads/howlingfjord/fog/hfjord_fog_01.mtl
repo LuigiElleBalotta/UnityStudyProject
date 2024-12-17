@@ -1,0 +1,3 @@
+newmtl mat_hfjord_fog_01
+illum 1
+map_Kd hfjord_fog_01.png

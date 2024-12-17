@@ -1,0 +1,3 @@
+newmtl mat_wr_vtrim01_stone
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wyrmrest\wr_vtrim01_stone.png

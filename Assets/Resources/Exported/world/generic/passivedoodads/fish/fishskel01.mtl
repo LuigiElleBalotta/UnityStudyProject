@@ -1,0 +1,3 @@
+newmtl mat_fishskel01
+illum 1
+map_Kd fishskel01.png

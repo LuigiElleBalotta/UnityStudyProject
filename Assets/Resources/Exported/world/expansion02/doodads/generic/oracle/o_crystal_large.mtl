@@ -1,0 +1,9 @@
+newmtl mat_genericglow64
+illum 1
+map_Kd ..\..\..\..\..\spells\genericglow64.png
+newmtl mat_o_lamppost
+illum 1
+map_Kd o_lamppost.png
+newmtl mat_orbreflectdark
+illum 1
+map_Kd orbreflectdark.png

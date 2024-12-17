@@ -1,0 +1,12 @@
+newmtl mat_watermist_spiral
+illum 1
+map_Kd watermist_spiral.png
+newmtl mat_t_vfx_dirt
+illum 1
+map_Kd ..\..\..\..\..\spells\t_vfx_dirt.png
+newmtl mat_watercascade_sharp_directional
+illum 1
+map_Kd watercascade_sharp_directional.png
+newmtl mat_waterfoam_rapid2
+illum 1
+map_Kd waterfoam_rapid2.png

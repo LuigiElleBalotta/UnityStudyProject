@@ -1,0 +1,6 @@
+newmtl mat_wintergrasp_bush_03
+illum 1
+map_Kd wintergrasp_bush_03.png
+newmtl mat_wintergrasp_bark_02
+illum 1
+map_Kd ..\trees\wintergrasp_bark_02.png

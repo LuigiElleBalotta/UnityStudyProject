@@ -1,0 +1,3 @@
+newmtl mat_goblintents01
+illum 1
+map_Kd goblintents01.png

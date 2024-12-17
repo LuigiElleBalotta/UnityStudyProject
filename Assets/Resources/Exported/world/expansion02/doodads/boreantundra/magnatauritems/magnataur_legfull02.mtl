@@ -1,0 +1,3 @@
+newmtl mat_magnataur_bones
+illum 1
+map_Kd magnataur_bones.png

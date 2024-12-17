@@ -1,0 +1,6 @@
+newmtl mat_graveinside
+illum 1
+map_Kd graveinside.png
+newmtl mat_gravedirtside
+illum 1
+map_Kd gravedirtside.png

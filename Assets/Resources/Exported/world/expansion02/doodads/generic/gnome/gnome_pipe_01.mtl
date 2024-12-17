@@ -1,0 +1,3 @@
+newmtl mat_td_gnome_rings_01
+illum 1
+map_Kd td_gnome_rings_01.png

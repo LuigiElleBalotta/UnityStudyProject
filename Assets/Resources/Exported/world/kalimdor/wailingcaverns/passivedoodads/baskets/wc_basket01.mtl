@@ -1,0 +1,3 @@
+newmtl mat_bloodybasket
+illum 1
+map_Kd bloodybasket.png

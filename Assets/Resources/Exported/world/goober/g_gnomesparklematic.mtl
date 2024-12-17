@@ -1,0 +1,6 @@
+newmtl mat_g_gnomesparklematic
+illum 1
+map_Kd g_gnomesparklematic.png
+newmtl mat_watermist
+illum 1
+map_Kd ..\..\creature\elementalearth\watermist.png

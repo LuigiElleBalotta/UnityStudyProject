@@ -1,0 +1,9 @@
+newmtl mat_wr_wall_ionic
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wyrmrest\wr_wall_ionic.png
+newmtl mat_wr_column_flat_middle
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wyrmrest\wr_column_flat_middle.png
+newmtl mat_wr_wall_plain
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\wyrmrest\wr_wall_plain.png

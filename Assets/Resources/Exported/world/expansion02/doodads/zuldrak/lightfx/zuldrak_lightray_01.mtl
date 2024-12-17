@@ -1,0 +1,3 @@
+newmtl mat_zuldrak_lightray_01
+illum 1
+map_Kd zuldrak_lightray_01.png

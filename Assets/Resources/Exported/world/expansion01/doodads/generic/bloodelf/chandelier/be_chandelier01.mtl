@@ -1,0 +1,15 @@
+newmtl mat_be_sconce_01
+illum 1
+map_Kd be_sconce_01.png
+newmtl mat_ribbonmagic1b
+illum 1
+map_Kd ribbonmagic1b.png
+newmtl mat_be_chand_001
+illum 1
+map_Kd be_chand_001.png
+newmtl mat_star8
+illum 1
+map_Kd ..\..\..\..\..\..\spells\star8.png
+newmtl mat_genericglow64
+illum 1
+map_Kd ..\..\..\..\..\..\spells\genericglow64.png

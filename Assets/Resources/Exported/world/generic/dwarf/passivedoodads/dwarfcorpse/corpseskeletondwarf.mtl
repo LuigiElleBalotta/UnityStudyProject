@@ -1,0 +1,3 @@
+newmtl mat_corpseskeleton
+illum 1
+map_Kd corpseskeleton.png

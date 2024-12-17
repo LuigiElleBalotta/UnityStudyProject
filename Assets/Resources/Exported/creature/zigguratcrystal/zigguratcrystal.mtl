@@ -1,0 +1,12 @@
+newmtl mat_zigguratcrystal
+illum 1
+map_Kd zigguratcrystal.png
+newmtl mat_zigguratcrystalenvironmentmap
+illum 1
+map_Kd zigguratcrystalenvironmentmap.png
+newmtl mat_zigguratcrystalglow
+illum 1
+map_Kd zigguratcrystalglow.png
+newmtl mat_glowstar_blue
+illum 1
+map_Kd glowstar_blue.png

@@ -1,0 +1,9 @@
+newmtl mat_gryphonroost
+illum 1
+map_Kd gryphonroost.png
+newmtl mat_gryphon_skin01
+illum 1
+map_Kd ..\..\..\..\..\creature\gryphon\gryphon_skin01.png
+newmtl mat_gryphon_skin02
+illum 1
+map_Kd ..\..\..\..\..\creature\gryphon\gryphon_skin02.png

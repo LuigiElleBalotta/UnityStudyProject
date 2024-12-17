@@ -1,0 +1,6 @@
+newmtl mat_sholazarleaves_palm01
+illum 1
+map_Kd sholazarleaves_palm01.png
+newmtl mat_sholazar_plant01
+illum 1
+map_Kd sholazar_plant01.png

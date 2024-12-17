@@ -1,0 +1,6 @@
+newmtl mat_nerubrianeggs_01
+illum 1
+map_Kd nerubrianeggs_01.png
+newmtl mat_blobs
+illum 1
+map_Kd ..\..\..\..\..\spells\blobs.png

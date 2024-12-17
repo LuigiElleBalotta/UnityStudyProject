@@ -1,0 +1,6 @@
+newmtl mat_dust7alpha
+illum 1
+map_Kd ..\..\..\..\generic\goblin\passivedoodads\goblinmachinery\dust7alpha.png
+newmtl mat_dust3x
+illum 1
+map_Kd ..\..\..\..\..\particles\dust3x.png

@@ -1,0 +1,3 @@
+newmtl mat_sc_fence
+illum 1
+map_Kd sc_fence.png

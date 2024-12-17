@@ -1,0 +1,3 @@
+newmtl mat_canoe
+illum 1
+map_Kd canoe.png

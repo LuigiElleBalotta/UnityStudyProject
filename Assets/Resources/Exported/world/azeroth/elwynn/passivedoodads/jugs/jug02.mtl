@@ -1,0 +1,6 @@
+newmtl mat_handle
+illum 1
+map_Kd handle.png
+newmtl mat_bottleblue
+illum 1
+map_Kd bottleblue.png

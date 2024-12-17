@@ -1,0 +1,9 @@
+newmtl mat_be_signs_alchemy
+illum 1
+map_Kd be_signs_alchemy.png
+newmtl mat_be_signpost_01
+illum 1
+map_Kd ..\lamp\be_signpost_01.png
+newmtl mat_genericglow64
+illum 1
+map_Kd ..\..\..\..\..\..\spells\genericglow64.png

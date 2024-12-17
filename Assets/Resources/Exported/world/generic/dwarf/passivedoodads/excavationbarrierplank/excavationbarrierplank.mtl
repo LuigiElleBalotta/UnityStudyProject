@@ -1,0 +1,3 @@
+newmtl mat_finishedwood
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\brian\excavation\finishedwood.png

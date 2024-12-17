@@ -1,0 +1,6 @@
+newmtl mat_undeadlantern01
+illum 1
+map_Kd ..\undercitychandeliers\undeadlantern01.png
+newmtl mat_jlo_undeadzigg_chain
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\decoration\jlo_undeadzigg_chain.png

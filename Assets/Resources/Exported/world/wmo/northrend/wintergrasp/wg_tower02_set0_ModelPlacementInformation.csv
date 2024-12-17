@@ -1,0 +1,5 @@
+ModelFile;PositionX;PositionY;PositionZ;RotationW;RotationX;RotationY;RotationZ;ScaleFactor;DoodadSet;FileDataID
+..\..\..\expansion02\doodads\ulduar\ul_brazier01.obj;0.00838130060583353;-14.823405265808105;4.2344970703125;-7.549790126404332e-8;0;0;-1;1;Set_$DefaultGlobal;196475
+..\..\..\expansion02\doodads\ulduar\ul_brazier01.obj;0.00838575791567564;14.700347900390625;4.2344970703125;-7.549790126404332e-8;0;0;-1;1;Set_$DefaultGlobal;196475
+..\..\..\expansion02\doodads\ulduar\ul_brazier01.obj;-14.928921699523926;0.009291891008615494;4.2344970703125;-7.549790126404332e-8;0;0;-1;1;Set_$DefaultGlobal;196475
+..\..\..\expansion02\doodads\ulduar\ul_orb_01.obj;0.2169230580329895;-0.13201992213726044;23.08807373046875;-0.382683664560318;0;0;-0.9238794445991516;0.9999999403953552;Set_$DefaultGlobal;196525

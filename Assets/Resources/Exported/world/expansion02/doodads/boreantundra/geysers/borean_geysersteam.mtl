@@ -1,0 +1,9 @@
+newmtl mat_dust2
+illum 1
+map_Kd dust2.png
+newmtl mat_borean_steam_02
+illum 1
+map_Kd borean_steam_02.png
+newmtl mat_borean_bubbles_02
+illum 1
+map_Kd borean_bubbles_02.png

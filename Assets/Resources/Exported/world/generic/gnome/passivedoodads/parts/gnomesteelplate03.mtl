@@ -1,0 +1,3 @@
+newmtl mat_tj_gnomemetalbits
+illum 1
+map_Kd ..\lights\tj_gnomemetalbits.png

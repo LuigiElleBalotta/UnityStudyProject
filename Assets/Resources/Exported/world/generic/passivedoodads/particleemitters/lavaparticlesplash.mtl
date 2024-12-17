@@ -1,0 +1,9 @@
+newmtl mat_animsplash01
+illum 1
+map_Kd animsplash01.png
+newmtl mat_dust2
+illum 1
+map_Kd ..\..\..\azeroth\deadmines\passivedoodads\goblinmeltingpot\dust2.png
+newmtl mat_hordebanner02
+illum 1
+map_Kd hordebanner02.png

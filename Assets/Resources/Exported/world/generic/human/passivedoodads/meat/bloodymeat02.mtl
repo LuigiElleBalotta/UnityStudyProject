@@ -1,0 +1,6 @@
+newmtl mat_meat03
+illum 1
+map_Kd meat03.png
+newmtl mat_fly
+illum 1
+map_Kd ..\..\..\ogre\passivedoodads\poodad\fly.png

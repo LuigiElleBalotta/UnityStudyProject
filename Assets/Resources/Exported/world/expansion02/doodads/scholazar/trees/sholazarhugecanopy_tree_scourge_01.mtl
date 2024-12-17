@@ -1,0 +1,9 @@
+newmtl mat_sholazarhugecanopy_trunk_scourge_01
+illum 1
+map_Kd sholazarhugecanopy_trunk_scourge_01.png
+newmtl mat_sholazarleaves_scourge_01
+illum 1
+map_Kd sholazarleaves_scourge_01.png
+newmtl mat_sholazarleaves_palm_scourge_01
+illum 1
+map_Kd sholazarleaves_palm_scourge_01.png

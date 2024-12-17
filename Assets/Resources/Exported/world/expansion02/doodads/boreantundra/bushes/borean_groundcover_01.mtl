@@ -1,0 +1,3 @@
+newmtl mat_borean_groundcover_01
+illum 1
+map_Kd borean_groundcover_01.png

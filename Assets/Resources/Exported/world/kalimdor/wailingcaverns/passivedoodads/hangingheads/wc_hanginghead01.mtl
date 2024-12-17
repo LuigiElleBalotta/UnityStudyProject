@@ -1,0 +1,9 @@
+newmtl mat_wc_taurenhead
+illum 1
+map_Kd wc_taurenhead.png
+newmtl mat_stonered
+illum 1
+map_Kd ..\..\..\..\generic\orc\passivedoodads\bones\stonered.png
+newmtl mat_rope02
+illum 1
+map_Kd ..\..\..\..\generic\orc\passivedoodads\bones\rope02.png

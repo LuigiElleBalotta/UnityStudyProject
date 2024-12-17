@@ -1,0 +1,9 @@
+newmtl mat_inscription_bottles01
+illum 1
+map_Kd ..\inscription\inscription_bottles01.png
+newmtl mat_orbreflectdark
+illum 1
+map_Kd ..\oracle\orbreflectdark.png
+newmtl mat_orbreflectbright
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\orbreflectbright.png

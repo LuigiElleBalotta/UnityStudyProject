@@ -1,0 +1,3 @@
+newmtl mat_minecartmisc01
+illum 1
+map_Kd ..\..\..\..\goober\minecartmisc01.png

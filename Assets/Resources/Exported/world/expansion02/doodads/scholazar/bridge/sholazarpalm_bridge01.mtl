@@ -1,0 +1,9 @@
+newmtl mat_sholazarpalm_bridge01
+illum 1
+map_Kd sholazarpalm_bridge01.png
+newmtl mat_shobus06
+illum 1
+map_Kd ..\..\..\..\nodxt\detail\shobus06.png
+newmtl mat_shobus01
+illum 1
+map_Kd ..\trees\shobus01.png

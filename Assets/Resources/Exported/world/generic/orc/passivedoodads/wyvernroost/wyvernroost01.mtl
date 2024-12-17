@@ -1,0 +1,9 @@
+newmtl mat_wyvernroost
+illum 1
+map_Kd wyvernroost.png
+newmtl mat_wyvernskin01
+illum 1
+map_Kd ..\..\..\..\..\creature\wyvern\wyvernskin01.png
+newmtl mat_wyvernskin02
+illum 1
+map_Kd ..\..\..\..\..\creature\wyvern\wyvernskin02.png

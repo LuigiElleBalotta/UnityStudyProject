@@ -1,0 +1,6 @@
+newmtl mat_arakkoaalchemy
+illum 1
+map_Kd tradeskill\arakkoaalchemy.png
+newmtl mat_watermist
+illum 1
+map_Kd ..\..\..\..\..\creature\elementalearth\watermist.png

@@ -1,0 +1,12 @@
+newmtl mat_jlo_azjnub_trims02
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\azjol\jlo_azjnub_trims02.png
+newmtl mat_jlo_azjnub_trims03
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\azjol\jlo_azjnub_trims03.png
+newmtl mat_jlo_azjnub_stonetrim01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\azjol\jlo_azjnub_stonetrim01.png
+newmtl mat_jlo_azjnub_stonetrim02
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\azjol\jlo_azjnub_stonetrim02.png

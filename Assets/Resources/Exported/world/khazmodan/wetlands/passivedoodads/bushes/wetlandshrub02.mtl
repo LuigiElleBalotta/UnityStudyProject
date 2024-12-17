@@ -1,0 +1,3 @@
+newmtl mat_leaves2
+illum 1
+map_Kd leaves2.png

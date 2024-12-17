@@ -1,0 +1,3 @@
+newmtl mat_grizzlyhills_yellowflower
+illum 1
+map_Kd grizzlyhills_yellowflower.png

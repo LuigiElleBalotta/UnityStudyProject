@@ -1,0 +1,6 @@
+newmtl mat_sack03
+illum 1
+map_Kd ..\sack01_01\sack03.png
+newmtl mat_meal02
+illum 1
+map_Kd ..\sack01_01\meal02.png

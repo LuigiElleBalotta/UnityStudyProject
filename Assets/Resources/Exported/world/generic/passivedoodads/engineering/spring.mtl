@@ -1,0 +1,6 @@
+newmtl mat_anvil
+illum 1
+map_Kd anvil.png
+newmtl mat_armorreflect01
+illum 1
+map_Kd ..\..\goblin\passivedoodads\goblinmachinery\armorreflect01.png

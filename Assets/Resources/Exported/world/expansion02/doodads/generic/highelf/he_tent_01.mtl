@@ -1,0 +1,6 @@
+newmtl mat_he_tent
+illum 1
+map_Kd ..\..\..\..\expansion01\doodads\generic\bloodelf\tents\he_tent.png
+newmtl mat_be_banner01
+illum 1
+map_Kd ..\..\..\..\expansion01\doodads\generic\bloodelf\banners\be_banner01.png

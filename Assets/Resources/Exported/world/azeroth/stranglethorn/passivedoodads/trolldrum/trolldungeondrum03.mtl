@@ -1,0 +1,9 @@
+newmtl mat_drum03base
+illum 1
+map_Kd drum03base.png
+newmtl mat_barrel05
+illum 1
+map_Kd barrel05.png
+newmtl mat_drumface01
+illum 1
+map_Kd drumface01.png

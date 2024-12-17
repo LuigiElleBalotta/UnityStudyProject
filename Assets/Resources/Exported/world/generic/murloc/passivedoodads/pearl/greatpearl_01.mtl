@@ -1,0 +1,12 @@
+newmtl mat_glow
+illum 1
+map_Kd ..\..\..\nightelf\passivedoodads\magicalimplements\glow.png
+newmtl mat_spideregg
+illum 1
+map_Kd ..\altars\spideregg.png
+newmtl mat_bindstonereflect
+illum 1
+map_Kd ..\..\..\..\skillactivated\tradeskillnodes\bindstonereflect.png
+newmtl mat_sparkle
+illum 1
+map_Kd ..\..\..\..\skillactivated\containers\sparkle.png

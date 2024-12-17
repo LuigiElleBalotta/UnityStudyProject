@@ -1,0 +1,15 @@
+newmtl mat_wood03
+illum 1
+map_Kd ..\..\..\..\azeroth\burningsteppes\passivedoodads\smeltingcauldron\wood03.png
+newmtl mat_cauldronpot05
+illum 1
+map_Kd cauldronpot05.png
+newmtl mat_glowball
+illum 1
+map_Kd ..\..\..\..\..\creature\fireelemental\glowball.png
+newmtl mat_waterfallsteam
+illum 1
+map_Kd waterfallsteam.png
+newmtl mat_flamelicksmallblue
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\smalldock\flamelicksmallblue.png

@@ -1,0 +1,3 @@
+newmtl mat_stickbundle
+illum 1
+map_Kd stickbundle.png

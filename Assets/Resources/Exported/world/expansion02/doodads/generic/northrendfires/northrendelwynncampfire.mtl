@@ -1,0 +1,15 @@
+newmtl mat_elwynncampfirerock02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\campfire\elwynncampfirerock02.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_t_vfx_fire_anim02_128_full_desat
+illum 1
+map_Kd ..\..\howlingfjord\firefx\t_vfx_fire_anim02_128_full_desat.png
+newmtl mat_t_vfx_door_black
+illum 1
+map_Kd ..\..\..\..\..\spells\t_vfx_door_black.png
+newmtl mat_wood03
+illum 1
+map_Kd ..\..\..\..\azeroth\burningsteppes\passivedoodads\smeltingcauldron\wood03.png

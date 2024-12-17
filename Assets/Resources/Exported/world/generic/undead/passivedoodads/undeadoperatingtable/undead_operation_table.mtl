@@ -1,0 +1,12 @@
+newmtl mat_undead_operating_table
+illum 1
+map_Kd ..\undeadtoolstable\undead_operating_table.png
+newmtl mat_fleshgolemskin2
+illum 1
+map_Kd ..\..\..\..\..\creature\fleshgolem\fleshgolemskin2.png
+newmtl mat_fleshgolemskin_operated_on
+illum 1
+map_Kd ..\undeadhooks\fleshgolemskin_operated_on.png
+newmtl mat_fleshgolemskin1
+illum 1
+map_Kd ..\..\..\..\..\creature\fleshgolem\fleshgolemskin1.png

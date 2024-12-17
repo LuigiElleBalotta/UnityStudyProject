@@ -1,0 +1,6 @@
+newmtl mat_borean_redplant_dried_01
+illum 1
+map_Kd borean_redplant_dried_01.png
+newmtl mat_smokewispy03
+illum 1
+map_Kd ..\..\..\..\lordaeron\stratholme\passivedoodads\fx\smokewispy03.png

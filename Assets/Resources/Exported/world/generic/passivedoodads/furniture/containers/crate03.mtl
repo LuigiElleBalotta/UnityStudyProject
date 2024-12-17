@@ -1,0 +1,9 @@
+newmtl mat_crates01front
+illum 1
+map_Kd crates01front.png
+newmtl mat_crates01sides
+illum 1
+map_Kd ..\..\crate01\crates01sides.png
+newmtl mat_crates01top
+illum 1
+map_Kd crates01top.png

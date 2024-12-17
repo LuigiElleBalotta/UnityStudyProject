@@ -1,0 +1,12 @@
+newmtl mat_wood03
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\wood03.png
+newmtl mat_wood02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\wood02.png
+newmtl mat_balistaarrow
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\balistaarrow.png
+newmtl mat_orbreflectdarkergrey
+illum 1
+map_Kd ..\throne\orbreflectdarkergrey.png

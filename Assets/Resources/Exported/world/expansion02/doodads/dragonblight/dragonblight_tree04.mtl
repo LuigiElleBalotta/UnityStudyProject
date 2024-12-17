@@ -1,0 +1,6 @@
+newmtl mat_dragonblight_bark01
+illum 1
+map_Kd dragonblight_bark01.png
+newmtl mat_dragonblight_tree03
+illum 1
+map_Kd dragonblight_tree03.png

@@ -1,0 +1,15 @@
+newmtl mat_burnedboard07
+illum 1
+map_Kd ..\..\..\..\azeroth\burningsteppes\passivedoodads\ruins\burnedboard07.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_lavalump2
+illum 1
+map_Kd ..\..\..\..\..\spells\lavalump2.png
+newmtl mat_darkironbrazier
+illum 1
+map_Kd darkironbrazier.png
+newmtl mat_toonsmoke16
+illum 1
+map_Kd ..\..\..\..\..\spells\toonsmoke16.png

@@ -1,0 +1,6 @@
+newmtl mat_snoboldcandles_01
+illum 1
+map_Kd snoboldcandles_01.png
+newmtl mat_flamelick
+illum 1
+map_Kd ..\..\..\..\..\interface\glues\models\ui_mainmenu\flamelick.png

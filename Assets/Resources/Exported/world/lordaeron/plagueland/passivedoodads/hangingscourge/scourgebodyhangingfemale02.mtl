@@ -1,0 +1,6 @@
+newmtl mat_hangingtreecorpse6
+illum 1
+map_Kd ..\..\..\..\azeroth\deadwindpass\passivedoodads\hangingbodies\hangingtreecorpse6.png
+newmtl mat_hangingscourgecorpsefemale02
+illum 1
+map_Kd hangingscourgecorpsefemale02.png

@@ -1,0 +1,3 @@
+ModelFile;PositionX;PositionY;PositionZ;RotationW;RotationX;RotationY;RotationZ;ScaleFactor;DoodadSet;FileDataID
+..\..\..\..\expansion02\doodads\wintertauren\wt_lamppost01.obj;48.61030197143555;-1.0959874391555786;13.380003929138184;1;0;0;0;1;Set_$DefaultGlobal;196604
+..\..\..\..\expansion02\doodads\wintertauren\wt_lamppost01.obj;-45.78412628173828;2.174506425857544;13.380003929138184;0.8369864225387573;0;0;0.547223687171936;1;Set_$DefaultGlobal;196604

@@ -1,0 +1,3 @@
+newmtl mat_crate
+illum 1
+map_Kd crate.png

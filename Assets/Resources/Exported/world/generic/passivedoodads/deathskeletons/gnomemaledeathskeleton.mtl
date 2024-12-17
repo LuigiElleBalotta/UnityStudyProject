@@ -1,0 +1,3 @@
+newmtl mat_deathskeletonskin
+illum 1
+map_Kd deathskeletonskin.png

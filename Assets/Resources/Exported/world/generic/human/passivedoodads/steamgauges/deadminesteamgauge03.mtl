@@ -1,0 +1,6 @@
+newmtl mat_steamwhistlevent
+illum 1
+map_Kd ..\..\..\gnome\passivedoodads\gnomemachine\steamwhistlevent.png
+newmtl mat_steamwhistlegauge02
+illum 1
+map_Kd ..\..\..\gnome\passivedoodads\gnomemachine\steamwhistlegauge02.png

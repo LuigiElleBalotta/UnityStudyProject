@@ -1,0 +1,6 @@
+newmtl mat_waterfoamloop3
+illum 1
+map_Kd waterfoamloop3.png
+newmtl mat_waterfall_color2
+illum 1
+map_Kd ..\..\scholazar\waterfalls\waterfall_color2.png

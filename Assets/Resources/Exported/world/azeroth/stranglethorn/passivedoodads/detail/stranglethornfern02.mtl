@@ -1,0 +1,6 @@
+newmtl mat_leaf2a
+illum 1
+map_Kd leaf2a.png
+newmtl mat_flower1
+illum 1
+map_Kd flower1.png

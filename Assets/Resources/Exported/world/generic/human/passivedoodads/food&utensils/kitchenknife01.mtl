@@ -1,0 +1,3 @@
+newmtl mat_cleaver_001
+illum 1
+map_Kd cleaver_001.png

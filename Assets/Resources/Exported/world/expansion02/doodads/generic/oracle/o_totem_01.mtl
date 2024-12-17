@@ -1,0 +1,6 @@
+newmtl mat_o_totem
+illum 1
+map_Kd o_totem.png
+newmtl mat_armorreflect3
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\armorreflect3.png

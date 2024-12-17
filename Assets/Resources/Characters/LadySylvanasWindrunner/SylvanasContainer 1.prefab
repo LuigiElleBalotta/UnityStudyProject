@@ -984,6 +984,7 @@ MonoBehaviour:
   percentOfUnitMana: 0
   Type: 0
   respawnPosition: {x: 0, y: 0, z: 0}
+  animManager: {fileID: 0}
   hpBarTexture: {fileID: 2800000, guid: f4310a4fe48a54d93b7489f1892a9ef0, type: 3}
   manaBarTexture: {fileID: 2800000, guid: f747a1318629246c78794c9635717886, type: 3}
   barsBackgroundTexture: {fileID: 2800000, guid: 190d587ad4c7f4d1598ff8515c569e27,

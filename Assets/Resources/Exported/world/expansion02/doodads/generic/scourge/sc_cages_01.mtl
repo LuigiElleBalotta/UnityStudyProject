@@ -1,0 +1,6 @@
+newmtl mat_sc_cage
+illum 1
+map_Kd sc_cage.png
+newmtl mat_toonsmoke16
+illum 1
+map_Kd ..\..\..\..\..\spells\toonsmoke16.png

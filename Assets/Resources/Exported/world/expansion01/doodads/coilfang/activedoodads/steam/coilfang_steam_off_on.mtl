@@ -1,0 +1,15 @@
+newmtl mat_smokewispy_roundsponge
+illum 1
+map_Kd ..\..\..\hellfirecitadel\demonwing\passivedoodads\machine\smokewispy_roundsponge.png
+newmtl mat_smoke02a_round
+illum 1
+map_Kd ..\..\..\hellfirecitadel\demonwing\passivedoodads\machine\smoke02a_round.png
+newmtl mat_waterspray1
+illum 1
+map_Kd ..\..\passivedoodads\steam\waterspray1.png
+newmtl mat_waterspray2
+illum 1
+map_Kd ..\..\passivedoodads\steam\waterspray2.png
+newmtl mat_blue32
+illum 1
+map_Kd ..\..\passivedoodads\steam\blue32.png

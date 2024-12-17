@@ -1,0 +1,3 @@
+newmtl mat_duskwoodtree01_web
+illum 1
+map_Kd ..\trees\duskwoodtree01_web.png

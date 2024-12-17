@@ -1,0 +1,12 @@
+newmtl mat_woodbaseiron
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\brian\excavation\woodbaseiron.png
+newmtl mat_finishedwood
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\brian\excavation\finishedwood.png
+newmtl mat_logend
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\brian\excavation\logend.png
+newmtl mat_wood
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\brian\excavation\wood.png

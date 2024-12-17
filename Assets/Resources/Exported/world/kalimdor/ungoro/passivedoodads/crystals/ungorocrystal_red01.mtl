@@ -1,0 +1,9 @@
+newmtl mat_ungorocrystalred
+illum 1
+map_Kd ungorocrystalred.png
+newmtl mat_silithus_crystal_environment_map
+illum 1
+map_Kd ..\..\..\silithus\passivedoodads\crystals\silithus_crystal_environment_map.png
+newmtl mat_watermist
+illum 1
+map_Kd ..\..\..\..\..\creature\elementalearth\watermist.png

@@ -1,0 +1,6 @@
+newmtl mat_catapultbeam02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\catapultbeam02.png
+newmtl mat_catapulthorn02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ruinedcatapult\catapulthorn02.png

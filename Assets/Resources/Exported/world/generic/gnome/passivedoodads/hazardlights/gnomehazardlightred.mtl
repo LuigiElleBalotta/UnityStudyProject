@@ -1,0 +1,9 @@
+newmtl mat_hazardlightred
+illum 1
+map_Kd hazardlightred.png
+newmtl mat_hazardlightbeam
+illum 1
+map_Kd hazardlightbeam.png
+newmtl mat_yellow_glow3
+illum 1
+map_Kd ..\..\..\..\..\spells\yellow_glow3.png

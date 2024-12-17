@@ -1,0 +1,6 @@
+newmtl mat_6_candleblack
+illum 1
+map_Kd 6_candleblack.png
+newmtl mat_candle_with_glow
+illum 1
+map_Kd candle_with_glow.png

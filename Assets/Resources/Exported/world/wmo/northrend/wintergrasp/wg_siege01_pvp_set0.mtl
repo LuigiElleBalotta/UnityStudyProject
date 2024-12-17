@@ -1,0 +1,3 @@
+newmtl mat_bm_brspire_rampmetal01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\floor\bm_brspire_rampmetal01.png

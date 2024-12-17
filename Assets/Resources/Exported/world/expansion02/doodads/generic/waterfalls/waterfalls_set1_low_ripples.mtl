@@ -1,0 +1,12 @@
+newmtl mat_t_vfx_dirt
+illum 1
+map_Kd t_vfx_dirt.png
+newmtl mat_t_vfx_explosion01_alpha_blank
+illum 1
+map_Kd t_vfx_explosion01_alpha_blank.png
+newmtl mat_waterfoamloop2
+illum 1
+map_Kd waterfoamloop2.png
+newmtl mat_t_vfx_border3
+illum 1
+map_Kd t_vfx_border3.png

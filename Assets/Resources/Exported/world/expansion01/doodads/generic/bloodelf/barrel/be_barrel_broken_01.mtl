@@ -1,0 +1,3 @@
+newmtl mat_be_barrel_01
+illum 1
+map_Kd be_barrel_01.png

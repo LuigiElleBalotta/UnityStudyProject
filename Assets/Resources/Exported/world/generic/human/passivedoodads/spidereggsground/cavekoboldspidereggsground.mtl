@@ -1,0 +1,6 @@
+newmtl mat_spidereggground
+illum 1
+map_Kd spidereggground.png
+newmtl mat_spidereggs01
+illum 1
+map_Kd spidereggs01.png

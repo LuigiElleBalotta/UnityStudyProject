@@ -1,0 +1,6 @@
+newmtl mat_swampsorrowsplant02_stem
+illum 1
+map_Kd swampsorrowsplant02_stem.png
+newmtl mat_leave
+illum 1
+map_Kd leave.png

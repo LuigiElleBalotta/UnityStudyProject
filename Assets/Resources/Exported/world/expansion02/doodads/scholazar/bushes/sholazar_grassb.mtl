@@ -1,0 +1,3 @@
+newmtl mat_sb_grassa
+illum 1
+map_Kd sb_grassa.png

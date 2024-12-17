@@ -1,0 +1,3 @@
+newmtl mat_grainsack
+illum 1
+map_Kd ..\..\..\..\azeroth\karazahn\passivedoodads\grainsacks\grainsack.png

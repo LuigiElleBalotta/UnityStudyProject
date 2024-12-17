@@ -1,0 +1,3 @@
+newmtl mat_watermist
+illum 1
+map_Kd ..\..\..\..\creature\elementalearth\watermist.png

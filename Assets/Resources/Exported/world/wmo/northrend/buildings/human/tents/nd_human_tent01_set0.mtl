@@ -1,0 +1,12 @@
+newmtl mat_humantentrope01
+illum 1
+map_Kd ..\..\..\..\..\expansion02\doodads\generic\human\tents\humantentrope01.png
+newmtl mat_woodtrim02
+illum 1
+map_Kd ..\..\..\..\..\..\dungeons\textures\northrend\humans\woodtrim02.png
+newmtl mat_tentbasecopy
+illum 1
+map_Kd ..\..\..\..\..\..\dungeons\textures\northrend\humans\tentbasecopy.png
+newmtl mat_woodtrim
+illum 1
+map_Kd ..\..\..\..\..\..\dungeons\textures\northrend\humans\woodtrim.png

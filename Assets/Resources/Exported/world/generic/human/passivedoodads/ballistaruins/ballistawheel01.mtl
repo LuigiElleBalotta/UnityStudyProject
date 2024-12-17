@@ -1,0 +1,6 @@
+newmtl mat_ruinedbalistawheel01
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\ruinedbalistawheel01.png
+newmtl mat_ruinedbalistawheel02
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\ballistaruined\ruinedbalistawheel02.png

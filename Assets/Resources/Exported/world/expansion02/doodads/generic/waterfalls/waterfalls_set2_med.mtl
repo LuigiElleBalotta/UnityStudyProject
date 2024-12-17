@@ -1,0 +1,6 @@
+newmtl mat_waterchop
+illum 1
+map_Kd ..\..\scholazar\waterfalls\waterchop.png
+newmtl mat_waterchop5
+illum 1
+map_Kd ..\..\scholazar\waterfalls\waterchop5.png

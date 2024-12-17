@@ -1,0 +1,3 @@
+newmtl mat_elfgate_wood01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\doodads\elfgate\elfgate_wood01.png

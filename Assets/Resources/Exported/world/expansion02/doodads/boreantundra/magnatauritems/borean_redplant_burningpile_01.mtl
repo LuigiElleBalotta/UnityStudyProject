@@ -1,0 +1,15 @@
+newmtl mat_borean_redplant_dried_01
+illum 1
+map_Kd borean_redplant_dried_01.png
+newmtl mat_t_vfx_fire_anim02_128_full_desat
+illum 1
+map_Kd ..\..\howlingfjord\firefx\t_vfx_fire_anim02_128_full_desat.png
+newmtl mat_t_vfx_door_black
+illum 1
+map_Kd ..\..\..\..\..\spells\t_vfx_door_black.png
+newmtl mat_smokewispy03
+illum 1
+map_Kd ..\..\..\..\lordaeron\stratholme\passivedoodads\fx\smokewispy03.png
+newmtl mat_lavalump2
+illum 1
+map_Kd ..\..\..\..\..\spells\lavalump2.png

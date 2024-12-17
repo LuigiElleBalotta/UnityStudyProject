@@ -1,0 +1,9 @@
+newmtl mat_yellowbonewrope
+illum 1
+map_Kd yellowbonewrope.png
+newmtl mat_yellowskull01
+illum 1
+map_Kd yellowskull01.png
+newmtl mat_rope02
+illum 1
+map_Kd ..\bones\rope02.png

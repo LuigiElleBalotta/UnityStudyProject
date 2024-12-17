@@ -1,0 +1,6 @@
+newmtl mat_battlefieldbanner01
+illum 1
+map_Kd battlefieldbanner01.png
+newmtl mat_battlealliancelogo01
+illum 1
+map_Kd battlealliancelogo01.png

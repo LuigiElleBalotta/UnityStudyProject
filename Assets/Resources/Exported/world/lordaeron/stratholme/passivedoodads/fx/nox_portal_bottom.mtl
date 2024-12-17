@@ -1,0 +1,12 @@
+newmtl mat_nox_aura
+illum 1
+map_Kd nox_aura.png
+newmtl mat_fog_ground
+illum 1
+map_Kd fog_ground.png
+newmtl mat_greyglowball64
+illum 1
+map_Kd ..\..\..\..\..\spells\greyglowball64.png
+newmtl mat_lightshaft_green_clear
+illum 1
+map_Kd lightshaft_green_clear.png

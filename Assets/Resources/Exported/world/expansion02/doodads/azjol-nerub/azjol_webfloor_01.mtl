@@ -1,0 +1,6 @@
+newmtl mat_jlo_azjnub_webbig
+illum 1
+map_Kd jlo_azjnub_webbig.png
+newmtl mat_jlo_azjnub_gradient
+illum 1
+map_Kd jlo_azjnub_gradient.png

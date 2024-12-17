@@ -1,0 +1,6 @@
+newmtl mat_wt_lampslights
+illum 1
+map_Kd wt_lampslights.png
+newmtl mat_wt_lampsglow
+illum 1
+map_Kd wt_lampsglow.png

@@ -1,0 +1,9 @@
+newmtl mat_jlo_wtauren_trim01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wintertauren\jlo_wtauren_trim01.png
+newmtl mat_wt_tentwrecked_01
+illum 1
+map_Kd wt_tentwrecked_01.png
+newmtl mat_jlo_wtauren_trim02
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\wintertauren\jlo_wtauren_trim02.png

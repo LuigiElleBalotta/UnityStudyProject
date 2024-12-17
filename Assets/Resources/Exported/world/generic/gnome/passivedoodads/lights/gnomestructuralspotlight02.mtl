@@ -1,0 +1,6 @@
+newmtl mat_tj_gnomespotlight
+illum 1
+map_Kd tj_gnomespotlight.png
+newmtl mat_gradient64b
+illum 1
+map_Kd ..\..\..\..\..\particles\gradient64b.png

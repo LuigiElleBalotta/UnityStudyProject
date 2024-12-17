@@ -1,0 +1,3 @@
+newmtl mat_fruitbowl
+illum 1
+map_Kd fruitbowl.png

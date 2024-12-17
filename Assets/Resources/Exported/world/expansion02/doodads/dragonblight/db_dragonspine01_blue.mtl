@@ -1,0 +1,6 @@
+newmtl mat_dragonboneblue01
+illum 1
+map_Kd dragonboneblue01.png
+newmtl mat_dragonboneinside02
+illum 1
+map_Kd dragonboneinside02.png

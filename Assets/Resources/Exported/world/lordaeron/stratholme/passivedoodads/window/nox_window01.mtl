@@ -1,0 +1,3 @@
+newmtl mat_bm_nox_window01
+illum 1
+map_Kd bm_nox_window01.png

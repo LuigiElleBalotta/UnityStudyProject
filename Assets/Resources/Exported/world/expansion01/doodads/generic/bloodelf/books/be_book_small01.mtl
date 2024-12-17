@@ -1,0 +1,3 @@
+newmtl mat_be_books01
+illum 1
+map_Kd be_books01.png

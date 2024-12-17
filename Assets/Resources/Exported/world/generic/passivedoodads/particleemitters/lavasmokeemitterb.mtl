@@ -1,0 +1,9 @@
+newmtl mat_genericglow2_32
+illum 1
+map_Kd ..\..\..\..\creature\spells\genericglow2_32.png
+newmtl mat_smokewispy02
+illum 1
+map_Kd ..\..\..\kalimdor\dragoncave\passivedoodads\charredbodies\smokewispy02.png
+newmtl mat_black32
+illum 1
+map_Kd ..\..\..\..\creature\ghost\black32.png

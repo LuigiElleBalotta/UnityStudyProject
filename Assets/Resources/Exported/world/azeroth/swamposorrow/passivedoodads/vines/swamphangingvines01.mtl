@@ -1,0 +1,9 @@
+newmtl mat_stranglethornlongvine02
+illum 1
+map_Kd stranglethornlongvine02.png
+newmtl mat_stranglebrownvine01_256
+illum 1
+map_Kd stranglebrownvine01_256.png
+newmtl mat_swampcanopytree01_vines
+illum 1
+map_Kd ..\..\..\..\environment\doodad\swampofsorrows\canopytrees\texture\justin\swampcanopytree01_vines.png

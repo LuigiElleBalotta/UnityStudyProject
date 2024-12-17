@@ -1,0 +1,6 @@
+newmtl mat_beermug
+illum 1
+map_Kd ..\barrelsandcrates\beermug.png
+newmtl mat_armorreflect4
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\shield\armorreflect4.png

@@ -1,0 +1,9 @@
+newmtl mat_fk_lamppost01
+illum 1
+map_Kd fk_lamppost01.png
+newmtl mat_glow32
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\passivedoodads\lamppost\glow32.png
+newmtl mat_vr_elevator_chain
+illum 1
+map_Kd ..\vrykul\elevator\vr_elevator_chain.png

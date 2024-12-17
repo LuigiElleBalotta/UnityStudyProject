@@ -1,0 +1,6 @@
+newmtl mat_archerytargethuman01
+illum 1
+map_Kd ..\..\..\..\kalimdor\mulgore\passivedoodads\burnedwagons\archerytargethuman01.png
+newmtl mat_thunderblufftex_02
+illum 1
+map_Kd ..\..\..\..\kalimdor\mulgore\passivedoodads\burnedwagons\thunderblufftex_02.png

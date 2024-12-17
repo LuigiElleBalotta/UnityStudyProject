@@ -1,0 +1,9 @@
+newmtl mat_bonespike
+illum 1
+map_Kd bonespike.png
+newmtl mat_undeadwall_skull01
+illum 1
+map_Kd undeadwall_skull01.png
+newmtl mat_plaugecage01copy
+illum 1
+map_Kd plaugecage01copy.png

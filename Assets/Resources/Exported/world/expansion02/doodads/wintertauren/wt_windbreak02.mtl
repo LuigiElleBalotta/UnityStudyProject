@@ -1,0 +1,3 @@
+newmtl mat_wt_windbreak01
+illum 1
+map_Kd wt_windbreak01.png

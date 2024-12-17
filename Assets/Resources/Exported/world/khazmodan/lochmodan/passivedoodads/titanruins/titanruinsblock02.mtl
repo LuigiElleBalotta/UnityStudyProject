@@ -1,0 +1,6 @@
+newmtl mat_pillar03
+illum 1
+map_Kd pillar03.png
+newmtl mat_titanwalls01
+illum 1
+map_Kd titanwalls01.png

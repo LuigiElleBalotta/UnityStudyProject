@@ -1,0 +1,9 @@
+newmtl mat_rocketcart01
+illum 1
+map_Kd rocketcart01.png
+newmtl mat_goblinwagonwheel01
+illum 1
+map_Kd ..\goblintntwagon\goblinwagonwheel01.png
+newmtl mat_westfallwagonwoodcopy
+illum 1
+map_Kd westfallwagonwoodcopy.png

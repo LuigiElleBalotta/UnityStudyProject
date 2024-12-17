@@ -1,0 +1,6 @@
+newmtl mat_wolvar_hut02_sholazar
+illum 1
+map_Kd wolvar_hut02_sholazar.png
+newmtl mat_wolvar_hut02_sholazarglow
+illum 1
+map_Kd wolvar_hut02_sholazarglow.png

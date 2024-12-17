@@ -1,0 +1,3 @@
+newmtl mat_smokewispy03
+illum 1
+map_Kd smokewispy03.png

@@ -1,0 +1,9 @@
+newmtl mat_dust2
+illum 1
+map_Kd ..\..\..\..\azeroth\deadmines\passivedoodads\goblinmeltingpot\dust2.png
+newmtl mat_borean_geyser_01
+illum 1
+map_Kd borean_geyser_01.png
+newmtl mat_hfjord_canyonrock_02
+illum 1
+map_Kd ..\..\howlingfjord\rocks\hfjord_canyonrock_02.png

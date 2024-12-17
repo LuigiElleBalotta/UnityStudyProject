@@ -1,0 +1,3 @@
+newmtl mat_meatwagon01
+illum 1
+map_Kd ..\meatwagon\meatwagon01.png

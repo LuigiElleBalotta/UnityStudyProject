@@ -1,0 +1,15 @@
+newmtl mat_club_1h_torch_a_01
+illum 1
+map_Kd ..\..\..\..\generic\passivedoodads\lights\club_1h_torch_a_01.png
+newmtl mat_flamelicksmall
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\weapon\flamelicksmall.png
+newmtl mat_t_vfx_fire_anim02_128_full_desat
+illum 1
+map_Kd ..\..\howlingfjord\firefx\t_vfx_fire_anim02_128_full_desat.png
+newmtl mat_t_vfx_door_black
+illum 1
+map_Kd ..\..\..\..\..\spells\t_vfx_door_black.png
+newmtl mat_gloworange32
+illum 1
+map_Kd ..\..\..\..\generic\passivedoodads\lights\gloworange32.png

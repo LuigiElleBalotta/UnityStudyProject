@@ -1,0 +1,6 @@
+newmtl mat_winebarrel_side
+illum 1
+map_Kd ..\..\..\..\azeroth\elwynn\buildings\distillery\winebarrel_side.png
+newmtl mat_bottlegreen
+illum 1
+map_Kd ..\..\..\goblin\passivedoodads\goblinmachinery\bottlegreen.png

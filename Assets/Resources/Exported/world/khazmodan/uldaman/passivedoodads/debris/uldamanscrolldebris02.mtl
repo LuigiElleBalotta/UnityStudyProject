@@ -1,0 +1,3 @@
+newmtl mat_booksandscrolls
+illum 1
+map_Kd ..\books\booksandscrolls.png

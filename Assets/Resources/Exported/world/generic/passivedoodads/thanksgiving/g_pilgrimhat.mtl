@@ -1,0 +1,3 @@
+newmtl mat_jlo_pilgrimhat
+illum 1
+map_Kd jlo_pilgrimhat.png

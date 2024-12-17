@@ -1,0 +1,3 @@
+newmtl mat_mm_oil_drum_01
+illum 1
+map_Kd mm_oil_drum_01.png

@@ -1,0 +1,3 @@
+newmtl mat_toolbox01
+illum 1
+map_Kd toolbox01.png

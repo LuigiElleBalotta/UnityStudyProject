@@ -1,0 +1,6 @@
+newmtl mat_mm_termite04
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\grizzly\mm_termite04.png
+newmtl mat_mm_termite07
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\grizzly\mm_termite07.png

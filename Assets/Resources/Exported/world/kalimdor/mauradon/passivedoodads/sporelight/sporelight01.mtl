@@ -1,0 +1,9 @@
+newmtl mat_sporelight01
+illum 1
+map_Kd sporelight01.png
+newmtl mat_ember
+illum 1
+map_Kd ..\..\..\..\..\creature\fireelemental\ember.png
+newmtl mat_sporelightglow
+illum 1
+map_Kd sporelightglow.png

@@ -1,0 +1,6 @@
+newmtl mat_jlo_undeadzigg_wall01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\walls\jlo_undeadzigg_wall01.png
+newmtl mat_jlo_udercity_stonewall01
+illum 1
+map_Kd ..\..\..\..\dungeons\textures\walls\jlo_udercity_stonewall01.png

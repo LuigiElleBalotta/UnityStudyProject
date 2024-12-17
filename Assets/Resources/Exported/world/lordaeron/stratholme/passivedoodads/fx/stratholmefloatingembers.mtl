@@ -1,0 +1,3 @@
+newmtl mat_lavalump2
+illum 1
+map_Kd ..\..\..\..\..\spells\lavalump2.png

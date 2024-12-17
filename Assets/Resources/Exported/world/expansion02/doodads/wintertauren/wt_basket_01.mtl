@@ -1,0 +1,3 @@
+newmtl mat_wt_misc_02
+illum 1
+map_Kd wt_misc_02.png

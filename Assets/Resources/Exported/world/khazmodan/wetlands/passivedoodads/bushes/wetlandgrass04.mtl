@@ -1,0 +1,3 @@
+newmtl mat_grass1
+illum 1
+map_Kd grass1.png

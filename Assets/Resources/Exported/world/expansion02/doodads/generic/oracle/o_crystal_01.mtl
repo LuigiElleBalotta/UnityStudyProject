@@ -1,0 +1,9 @@
+newmtl mat_o_eggs_01
+illum 1
+map_Kd o_eggs_01.png
+newmtl mat_smoothreflect
+illum 1
+map_Kd ..\..\..\..\..\item\objectcomponents\head\smoothreflect.png
+newmtl mat_glow
+illum 1
+map_Kd ..\..\..\..\generic\nightelf\passivedoodads\magicalimplements\glow.png

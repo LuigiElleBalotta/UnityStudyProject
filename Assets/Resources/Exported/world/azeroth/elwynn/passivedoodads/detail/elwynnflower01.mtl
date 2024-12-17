@@ -1,0 +1,6 @@
+newmtl mat_elwynnflowerleaf01
+illum 1
+map_Kd elwynnflowerleaf01.png
+newmtl mat_elwynnflowertop01a
+illum 1
+map_Kd ..\..\..\..\generic\human\passivedoodads\planterboxes\elwynnflowertop01a.png

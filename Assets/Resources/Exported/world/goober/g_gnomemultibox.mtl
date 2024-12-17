@@ -1,0 +1,3 @@
+newmtl mat_g_gnomemultibox
+illum 1
+map_Kd g_gnomemultibox.png

@@ -1,0 +1,12 @@
+newmtl mat_watercascade_soft_directionaflipl
+illum 1
+map_Kd ..\..\scholazar\waterfalls\watercascade_soft_directionaflipl.png
+newmtl mat_watercascade_color
+illum 1
+map_Kd ..\..\scholazar\waterfalls\watercascade_color.png
+newmtl mat_waterchop5
+illum 1
+map_Kd ..\..\scholazar\waterfalls\waterchop5.png
+newmtl mat_waterchop
+illum 1
+map_Kd ..\..\scholazar\waterfalls\waterchop.png

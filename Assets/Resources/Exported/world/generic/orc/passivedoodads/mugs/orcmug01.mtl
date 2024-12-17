@@ -1,0 +1,3 @@
+newmtl mat_beermug
+illum 1
+map_Kd ..\barrelsandcrates\beermug.png

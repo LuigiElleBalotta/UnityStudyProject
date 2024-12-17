@@ -1,0 +1,9 @@
+newmtl mat_steamwhistlepipe
+illum 1
+map_Kd ..\..\..\..\skillactivated\tradeskillenablers\steamwhistlepipe.png
+newmtl mat_steamwhistlevent
+illum 1
+map_Kd ..\..\..\gnome\passivedoodads\gnomemachine\steamwhistlevent.png
+newmtl mat_waterfallsteam
+illum 1
+map_Kd ..\cauldrons\waterfallsteam.png

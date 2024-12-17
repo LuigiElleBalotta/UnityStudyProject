@@ -1,0 +1,12 @@
+newmtl mat_be_floatinglantern
+illum 1
+map_Kd be_floatinglantern.png
+newmtl mat_dust1_a
+illum 1
+map_Kd ..\..\..\..\spells\dust1_a.png
+newmtl mat_dust3_a
+illum 1
+map_Kd dust3_a.png
+newmtl mat_glowball
+illum 1
+map_Kd ..\..\..\expansion02\doodads\dalaran\glowball.png

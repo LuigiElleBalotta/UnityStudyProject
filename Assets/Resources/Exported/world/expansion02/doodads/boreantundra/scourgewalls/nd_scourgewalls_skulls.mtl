@@ -1,0 +1,6 @@
+newmtl mat_mm_undeadzigg_trim01
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\trim\mm_undeadzigg_trim01.png
+newmtl mat_jlo_undeadzigg_trim03
+illum 1
+map_Kd ..\..\..\..\..\dungeons\textures\trim\jlo_undeadzigg_trim03.png

@@ -1,0 +1,9 @@
+newmtl mat_kingkodoskull01
+illum 1
+map_Kd ..\..\..\..\kalimdor\desolace\passivedoodads\kodogravebones\kingkodoskull01.png
+newmtl mat_plaguedtree6_vinesrednew
+illum 1
+map_Kd ..\trees\plaguedtree6_vinesrednew.png
+newmtl mat_bonespike
+illum 1
+map_Kd ..\cages\bonespike.png

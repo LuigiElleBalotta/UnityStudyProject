@@ -1,0 +1,12 @@
+newmtl mat_tombstonemonument02
+illum 1
+map_Kd tombstonemonument02.png
+newmtl mat_tombstonemonument03
+illum 1
+map_Kd tombstonemonument03.png
+newmtl mat_tombstone05
+illum 1
+map_Kd tombstone05.png
+newmtl mat_warningtreeweb
+illum 1
+map_Kd ..\..\..\..\..\interface\glues\models\ui_scourge\warningtreeweb.png

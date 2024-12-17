@@ -1,0 +1,3 @@
+newmtl mat_o_lamppost
+illum 1
+map_Kd o_lamppost.png

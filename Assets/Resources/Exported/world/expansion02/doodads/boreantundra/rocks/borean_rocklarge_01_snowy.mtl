@@ -1,0 +1,9 @@
+newmtl mat_borean_rocklarge_01_snowy
+illum 1
+map_Kd borean_rocklarge_01_snowy.png
+newmtl mat_borean_rocklarge_03_snowy
+illum 1
+map_Kd borean_rocklarge_03_snowy.png
+newmtl mat_borean_rocklarge_02_snowy
+illum 1
+map_Kd borean_rocklarge_02_snowy.png

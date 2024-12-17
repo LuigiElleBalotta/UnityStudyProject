@@ -1,0 +1,3 @@
+newmtl mat_sb_plantsb_dark
+illum 1
+map_Kd sb_plantsb_dark.png

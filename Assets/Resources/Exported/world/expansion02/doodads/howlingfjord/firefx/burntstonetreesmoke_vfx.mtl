@@ -1,0 +1,6 @@
+newmtl mat_t_vfx_smoke_cigarete
+illum 1
+map_Kd t_vfx_smoke_cigarete.png
+newmtl mat_t_vfx_door_black
+illum 1
+map_Kd ..\..\..\..\..\spells\t_vfx_door_black.png

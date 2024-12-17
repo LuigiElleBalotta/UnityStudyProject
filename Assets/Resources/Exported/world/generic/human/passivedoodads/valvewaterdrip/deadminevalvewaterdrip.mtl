@@ -1,0 +1,6 @@
+newmtl mat_metalbolts
+illum 1
+map_Kd ..\..\..\gnome\passivedoodads\gnomemachine\metalbolts.png
+newmtl mat_waterfallsteam
+illum 1
+map_Kd ..\cauldrons\waterfallsteam.png

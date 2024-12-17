@@ -1,0 +1,6 @@
+newmtl mat_be_table_large01
+illum 1
+map_Kd be_table_large01.png
+newmtl mat_silithus_crystal_environment_map
+illum 1
+map_Kd ..\..\..\..\..\kalimdor\silithus\passivedoodads\crystals\silithus_crystal_environment_map.png
